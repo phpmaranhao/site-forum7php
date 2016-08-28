@@ -1,0 +1,109 @@
+/* FONTS */
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+/* GRID */
+.grid{
+    display: flex;
+    justify-content: flex-start;
+}
+.column{
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+}
+.container{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+/* HELPERS */
+.textCenter{
+    text-align: center;
+}
+.blockCenter{
+    display: block;
+    margin: 0 auto;
+}
+.textJustify{
+    text-align: justify;
+}
+.imgResponsive{
+    max-width: 100%;
+}
+/* COLOR */
+.textWhite{
+    color: rgb(255,255,255);
+}
+/* THEME */
+.navBar{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(81,200,216);
+}
+.navItem{
+    font-weight: 900;
+    color: rgb(255,255,255);
+    text-decoration: none;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    transition-property: padding-top, padding-bottom;
+    transition-duration: 0.5s;
+}
+.navItem.smaller{
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+.navItem:hover{
+    background-color: rgb(62,153,165);
+}
+.mainBanner{
+    background-color: rgb(60,110,109);
+    padding-top: 100px;
+}
+.codeRevolution{
+    display: block;
+    font-weight: 900;
+    text-align: left;
+    width: 200px;
+    margin: 100px auto 0 auto;
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+.sectionHeader{
+    color: rgb(255,255,255);
+    text-transform: uppercase;
+}
+.sectionHeader.what{
+    background-color: rgb(81,200,216);
+}
+.sectionHeader.who{
+    background-color: rgb(80,215,193);
+}
+.sectionHeader.when{
+    background-color: rgb(79,215,79);
+}
+.sectionHeader.where{
+    background-color: rgb(181,215,79);
+}
+.sectionHeader.howMuch{
+    background-color: rgb(213,215,80);
+}
+.sectionHeader > .container > h1{
+    margin-top: 0;
+    padding: 10px 0 10px 0;
+}
+.sectionWho{
+    background-color: rgb(48,130,116);
+}
+.sectionWhen{
+    background-color: rgb(90,145,88);
+}
+.sectionWhere{
+    background-color: rgb(143,161,85);
+}
+.sectionHowMuch{
+    background-color: rgb(60,110,109);
+}
