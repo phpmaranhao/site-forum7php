@@ -1,10 +1,15 @@
 /* FONTS */
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
 @font-face {
-    font-family: 'Shumi';
-    src: url('../font/Shumi.otf');
+    font-family: 'Code';
+    src: url('../font/code.otf');
 }
-*{
-    /*font-family: 'Shumi', sans-serif;*/
+/* FONTS */
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2{
+    font-family: 'Open Sans', sans-serif;
 }
 /* GRID */
 .grid{
@@ -63,12 +68,11 @@
 }
 .mainBanner{
     background-color: rgb(60,110,109);
-    padding-top: 100px;
+    padding-top: 140px;
 }
 .codeRevolution{
     display: block;
     font-weight: 900;
-    font-family: 'Shumi', sans-serif;
     text-align: left;
     text-transform: uppercase;
     font-size: 2.5em;
@@ -96,6 +100,7 @@
     background-color: rgb(213,215,80);
 }
 .sectionHeader > .container > h1{
+    font-family: 'Code', sans-serif;
     margin-top: 0;
     padding: 10px 0 10px 0;
     margin: 0;
