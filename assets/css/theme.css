@@ -2,23 +2,31 @@
 /*@import 'https://fonts.googleapis.com/css?family=Open+Sans';*/
 @font-face {
     font-family: 'Code';
-    src: url('../font/code.otf');
+    src: url('../font/TrimMonoWebBold.ttf');
+    /*src: url('../font/code.otf');*/
 }
 /* FONTS */
 p{
     font-family: 'Open Sans', sans-serif;
 }
 h1, h2{
-    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Code', sans-serif;
 }
 /* GRID */
 .grid{
     display: flex;
     justify-content: flex-start;
 }
-.column{
+.grid-body{
+    display: flex;
+    justify-content: flex-start;
+    margin: auto auto 1px auto;
+}
+.column {
     width: 100%;
     padding: 5px 10px 5px 10px;
+    font-family: 'Code', sans-serif;
 }
 .container{
     display: block;
@@ -76,11 +84,13 @@ h1, h2{
 .codeRevolution{
     display: block;
     font-weight: 900;
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
-    font-size: 2.5em;
-    width: 200px;
-    margin: 100px auto 0 auto;
+    font-size: 87pt;
+    width: 300px;
+    margin: 100px auto;
+    font-family: 'Code', sans-serif;
+    color: #50a590;
 }
 .sectionHeader{
     color: rgb(255,255,255);
@@ -106,7 +116,7 @@ h1, h2{
     font-family: 'Code', sans-serif;
     margin-top: 0;
     padding: 10px 0 10px 0;
-    margin: 0;
+    /*margin: 0;*/
 }
 .sectionWho{
     background-color: rgb(48,130,116);
