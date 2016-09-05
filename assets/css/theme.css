@@ -1,5 +1,5 @@
 /* FONTS */
-@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+/*@import 'https://fonts.googleapis.com/css?family=Open+Sans';*/
 @font-face {
     font-family: 'Code';
     src: url('../font/code.otf');
@@ -48,6 +48,9 @@ h1, h2{
     position: fixed;
     width: 100%;
     background-color: rgb(81,200,216);
+    transition-property: background-color;
+    transition-duration: 1s;
+    /*transition*/
 }
 .navItem{
     color: rgb(255,255,255);
@@ -56,7 +59,7 @@ h1, h2{
     padding-top: 30px;
     padding-bottom: 30px;
 
-    transition-property: padding-top, padding-bottom;
+    transition-property: padding-top, padding-bottom, background-color;
     transition-duration: 0.5s;
 }
 .navItem.smaller{
@@ -84,19 +87,19 @@ h1, h2{
     text-transform: uppercase;
     width: 100%;
 }
-.sectionHeader.what{
+.what{
     background-color: rgb(81,200,216);
 }
-.sectionHeader.who{
+.who{
     background-color: rgb(80,215,193);
 }
-.sectionHeader.when{
+.when{
     background-color: rgb(79,215,79);
 }
-.sectionHeader.where{
+.where{
     background-color: rgb(181,215,79);
 }
-.sectionHeader.howMuch{
+.howMuch{
     background-color: rgb(213,215,80);
 }
 .sectionHeader > .container > h1{
