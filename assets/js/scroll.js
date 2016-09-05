@@ -54,7 +54,6 @@ window.addEventListener('load', function(){
             unlock(topicElements[0]);
         }
 
-
     });
 
     window.addEventListener('resize', function(){
