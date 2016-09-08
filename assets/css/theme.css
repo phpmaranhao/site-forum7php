@@ -66,7 +66,6 @@ h1, h2{
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-
     transition-property: padding-top, padding-bottom, background-color;
     transition-duration: 0.5s;
 }
@@ -82,15 +81,18 @@ h1, h2{
     padding-top: 140px;
 }
 .codeRevolution{
-    display: block;
     font-weight: 900;
+    font-size: 87pt;
+    font-family: 'Code', sans-serif;
     text-align: center;
     text-transform: uppercase;
-    font-size: 87pt;
+    display: block;
     width: 300px;
     margin: 100px auto;
-    font-family: 'Code', sans-serif;
     color: #50a590;
+}
+.codeRevolution .column-codeRevolution{
+    height: 70pt;
 }
 .sectionHeader{
     color: rgb(255,255,255);
