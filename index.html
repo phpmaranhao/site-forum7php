@@ -11,7 +11,7 @@
         <!--    BARRA DE NAVEGAÇÃO      -->
         <header class="navBar" id="navBar">
             <nav class="container">
-                <div class="grid">
+                <div class="grid menu">
                     <a href="#" class="column navItem">O QUÊ</a>
                     <a href="#" class="column navItem">QUEM</a>
                     <a href="#" class="column navItem">QUANDO</a>
@@ -19,6 +19,9 @@
                     <a href="#" class="column navItem">QUANTO</a>
                 </div>
             </nav>
+            <div class="grid menuHamburger">
+                <a href="#" class="column navItem"><span class="icon menuIcon"></span></a>
+            </div>
         </header>
         <!--        BANNER PRINCIPAL        -->
         <main class="mainBanner">
@@ -26,34 +29,34 @@
             <!--            CODE REVOLUTION         -->
             <section class="codeRevolution container">
                 <div class="grid">
-                    <div class="column-codeRevolution textCenter">2</div>
-                    <div class="column-codeRevolution textCenter">0</div>
-                    <div class="column-codeRevolution textCenter">1</div>
-                    <div class="column-codeRevolution textCenter">6</div>
+                    <div class="column textCenter">2</div>
+                    <div class="column textCenter">0</div>
+                    <div class="column textCenter">1</div>
+                    <div class="column textCenter">6</div>
                 </div>
                 <div class="grid">
-                    <div class="column-codeRevolution textCenter">C</div>
-                    <div class="column-codeRevolution textCenter">O</div>
-                    <div class="column-codeRevolution textCenter">D</div>
-                    <div class="column-codeRevolution textCenter">E</div>
+                    <div class="column textCenter">C</div>
+                    <div class="column textCenter">O</div>
+                    <div class="column textCenter">D</div>
+                    <div class="column textCenter">E</div>
                 </div>
                 <div class="grid">
-                    <div class="column-codeRevolution textCenter">R</div>
-                    <div class="column-codeRevolution textCenter">E</div>
-                    <div class="column-codeRevolution textCenter">V</div>
-                    <div class="column-codeRevolution textCenter">O</div>
+                    <div class="column textCenter">R</div>
+                    <div class="column textCenter">E</div>
+                    <div class="column textCenter">V</div>
+                    <div class="column textCenter">O</div>
                 </div>
                 <div class="grid">
-                    <div class="column-codeRevolution textCenter">L</div>
-                    <div class="column-codeRevolution textCenter">U</div>
-                    <div class="column-codeRevolution textCenter">T</div>
-                    <div class="column-codeRevolution textCenter">I</div>
+                    <div class="column textCenter">L</div>
+                    <div class="column textCenter">U</div>
+                    <div class="column textCenter">T</div>
+                    <div class="column textCenter">I</div>
                 </div>
                 <div class="grid">
-                    <div class="column-codeRevolution textCenter">O</div>
-                    <div class="column-codeRevolution textCenter">N</div>
-                    <div class="column-codeRevolution textCenter">&nbsp;</div>
-                    <div class="column-codeRevolution textCenter">&nbsp;</div>
+                    <div class="column textCenter">O</div>
+                    <div class="column textCenter">N</div>
+                    <div class="column textCenter">&nbsp;</div>
+                    <div class="column textCenter">&nbsp;</div>
                 </div>
             </section>
             <!--       SESSÃO O QUÊ        -->
@@ -63,8 +66,9 @@
                         <h1>O quê</h1>
                     </div>
                 </header>
-                <div class="container textWhite textJustify content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <article class="container textWhite textJustify content">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat.
                         Praesent id enim justo. Ut lacinia rutrum ex, a aliquam enim dignissim at.
                         Curabitur ut orci sit amet arcu cursus accumsan.
@@ -72,7 +76,8 @@
                         Nunc sit amet tortor justo. Duis feugiat tristique arcu, vel semper lectus fermentum facilisis.
                         Sed ac magna a ipsum ornare pulvinar.
                     </p>
-                    <p>Integer commodo odio mauris, nec tempor elit pretium ornare.
+                    <p>
+                        Integer commodo odio mauris, nec tempor elit pretium ornare.
                         Fusce est tellus, mollis at mattis quis, venenatis nec felis.
                         Donec ornare aliquam diam, quis tincidunt orci varius a.
                         Nunc placerat fermentum ornare. Morbi ac odio rutrum, maximus magna at, tempor mi.
@@ -81,7 +86,8 @@
                         Phasellus eget ultricies mi.
                         Vestibulum viverra ornare ante, id rutrum enim porttitor sit amet.
                     </p>
-                    <p>Pellentesque iaculis neque vitae interdum venenatis.
+                    <p>
+                        Pellentesque iaculis neque vitae interdum venenatis.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Maecenas non ligula ac ipsum tempus dictum.
                         Proin vitae tempus risus.
@@ -90,7 +96,8 @@
                         Integer porta, elit ac rutrum vestibulum, dolor lacus elementum orci, eu pharetra urna mauris sit amet erat.
                         Nam venenatis vulputate dictum.
                     </p>
-                    <p>Praesent sed sagittis est.
+                    <p>
+                        Praesent sed sagittis est.
                         Suspendisse at ipsum id felis ultricies eleifend.
                         Donec non orci vel lectus tempor condimentum.
                         Nunc finibus, urna et condimentum imperdiet, nunc justo dictum ligula, et eleifend velit justo quis purus.
@@ -104,21 +111,7 @@
                         Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
                         Duis non placerat nulla.
                     </p>
-                    <p>Etiam vitae sem tincidunt, malesuada est et, tincidunt ex.
-                        Quisque euismod dapibus lacinia.
-                        Donec sit amet justo ultricies, suscipit nibh malesuada, feugiat tortor.
-                        Curabitur nec dui ut diam elementum accumsan id ac tellus.
-                        Donec ullamcorper, ipsum nec porttitor aliquet, augue felis mollis tortor, vitae imperdiet mi ante quis quam.
-                        Phasellus pretium congue feugiat.
-                        In hac habitasse platea dictumst. Phasellus elementum porta est.
-                        Praesent vel nunc et nisl congue porta vel nec lacus.
-                        Nullam et lacinia est, id efficitur urna. Morbi iaculis faucibus mauris.
-                        Praesent nec risus et mi vulputate efficitur.
-                        Integer feugiat sapien lectus, non convallis lorem posuere quis.
-                        Sed commodo dapibus nulla, a posuere mauris porta euismod.
-                        Duis in massa sit amet sem dictum mattis ac id nisl.
-                    </p>
-                </div>
+                </article>
             </section>
             <!--        SESSÃO QUEM         -->
             <section class="sectionWho">
@@ -127,7 +120,7 @@
                         <h1>QUEM</h1>
                     </div>
                 </header>
-                <div class="container">
+                <article class="container">
                     <div class="grid">
                         <div class="column">
                             <img src="assets/img/img.png" class="imgResponsive">
@@ -182,7 +175,7 @@
                         </div>
                     </div>
                     <br>
-                </div>
+                </article>
             </section>
             <!--            SESSÃO QUANDO           -->
             <section class="sectionWhen">
@@ -191,7 +184,7 @@
                         <h1>Quando</h1>
                     </div>
                 </div>
-                <div class="container content">
+                <article class="container content">
                     <div class="grid">
                         <div class="column textWhite blockCenter">
                             <!--         DATA       -->
@@ -205,7 +198,7 @@
                             <img src="assets/img/programacao.png" class="imgResponsive">
                         </div>
                     </div>
-                </div>
+                </article>
                 <br>
             </section>
             <!--     SESSÃO ONDE      -->
@@ -215,7 +208,7 @@
                         <h1>Onde</h1>
                     </div>
                 </header>
-                <div class="container content">
+                <article class="container content">
                     <div class="grid">
                         <div class="column textCenter">
                             <h2>AUDITÓRIO<br>PITÁGORAS</h2>
@@ -230,12 +223,13 @@
                         </div>
                     </div>
 
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.8687477167264!2d-44.24267818574959!3d-2.549599439026684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7f69030d0146f8b%3A0x874f6faa8c29b0a7!2sFaculdade+Santa+Teresinha!5e0!3m2!1sen!2sbr!4v1473021340378" width="1750" height="500" frameborder="0" style="border:0" allowfullscreen class="imgResponsive blockCenter"></iframe>
+                    <!--Só pra não acabar com minha banda de dados móveis-->
+                    <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.8687477167264!2d-44.24267818574959!3d-2.549599439026684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7f69030d0146f8b%3A0x874f6faa8c29b0a7!2sFaculdade+Santa+Teresinha!5e0!3m2!1sen!2sbr!4v1473021340378" width="1750" height="500" frameborder="0" style="border:0" allowfullscreen class="imgResponsive blockCenter"></iframe>-->
 
                     <div class="textCenter">
-                        <h1 class="normalFont">OU ABRA AS CORDENADAS NO APP</h1>
+                        <h1>OU ABRA AS CORDENADAS NO APP</h1>
                     </div>
-                </div>
+                </article>
                 <br>
             </section>
             <!--    SESSÃO QUANTO   -->
@@ -245,7 +239,7 @@
                         <h1>Quanto</h1>
                     </div>
                 </header>
-                <div class="container content">
+                <article class="container content">
                     <div class="grid">
                         <div class="column textCenter textWhite">
                             <h1><small>JULHO</small> 75 <small>REAIS</small></h1>
@@ -270,7 +264,7 @@
                             <img src="assets/img/pagseguro.png" class="imgResponsive">
                         </div>
                     </div>
-                </div>
+                </article>
             </section>
         </main>
 

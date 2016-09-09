@@ -1,32 +1,28 @@
 /* FONTS */
 /*@import 'https://fonts.googleapis.com/css?family=Open+Sans';*/
 @font-face {
-    font-family: 'Code';
+    font-family: 'TrimMono';
     src: url('../font/TrimMonoWebBold.ttf');
-    /*src: url('../font/code.otf');*/
 }
-/* FONTS */
+@font-face{
+    font-family: 'Icon';
+    src: url('../font/ETmodules_v2.ttf');
+}
 p{
     font-family: 'Open Sans', sans-serif;
 }
 h1, h2{
-    /*font-family: 'Open Sans', sans-serif;*/
-    font-family: 'Code', sans-serif;
+    font-family: 'TrimMono', sans-serif;
 }
 /* GRID */
 .grid{
     display: flex;
     justify-content: flex-start;
 }
-.grid-body{
-    display: flex;
-    justify-content: flex-start;
-    margin: auto auto 1px auto;
-}
 .column {
     width: 100%;
     padding: 5px 10px 5px 10px;
-    font-family: 'Code', sans-serif;
+    font-family: 'TrimMono', sans-serif;
 }
 .container{
     display: block;
@@ -57,8 +53,7 @@ h1, h2{
     width: 100%;
     background-color: rgb(81,200,216);
     transition-property: background-color;
-    transition-duration: 1s;
-    /*transition*/
+    transition-duration: 0.5s;
 }
 .navItem{
     color: rgb(255,255,255);
@@ -82,40 +77,66 @@ h1, h2{
 }
 .codeRevolution{
     font-weight: 900;
-    font-size: 87pt;
-    font-family: 'Code', sans-serif;
+    font-family: 'TrimMono', sans-serif;
+    font-size: 5em;
     text-align: center;
     text-transform: uppercase;
-    display: block;
     width: 300px;
     margin: 100px auto;
     color: #50a590;
 }
-.codeRevolution .column-codeRevolution{
-    height: 70pt;
+.what{
+    background-color: rgb(81,200,216);
+}
+.what .navItem:hover{
+    background-color: rgb(62,153,165);
+}
+.who{
+    background-color: rgb(80,215,193);
+}
+.who .navItem:hover{
+    background-color: rgb(63, 164, 126);
+}
+.when{
+    background-color: rgb(79,215,79);
+}
+.when .navItem:hover{
+    background-color: rgb(60, 164, 60);
+}
+.where{
+    background-color: rgb(181,215,79);
+}
+.where .navItem:hover{
+    background-color: rgb(183, 164, 60);
+}
+.howMuch{
+    background-color: rgb(213,215,80);
+}
+.howMuch .navItem:hover{
+    background-color: rgb(162, 164, 61);
+}
+.onWhat{
+    background-color: rgb(62,153,165);
+}
+.onWho{
+    background-color: rgb(63, 164, 126);
+}
+.onWhen{
+    background-color: rgb(60, 164, 60);
+}
+.onWhere{
+    background-color: rgb(183, 164, 60);
+}
+.onHowMuch{
+    background-color: rgb(162, 164, 61);
 }
 .sectionHeader{
     color: rgb(255,255,255);
     text-transform: uppercase;
     width: 100%;
 }
-.what{
-    background-color: rgb(81,200,216);
-}
-.who{
-    background-color: rgb(80,215,193);
-}
-.when{
-    background-color: rgb(79,215,79);
-}
-.where{
-    background-color: rgb(181,215,79);
-}
-.howMuch{
-    background-color: rgb(213,215,80);
-}
 .sectionHeader > .container > h1{
-    font-family: 'Code', sans-serif;
+    font-family: 'TrimMono', sans-serif;
     margin-top: 0;
     padding: 10px 0 10px 0;
     /*margin: 0;*/
@@ -131,4 +152,32 @@ h1, h2{
 }
 .sectionHowMuch{
     background-color: rgb(60,110,109);
+}
+/* ÍCONES */
+.icon{
+    font-family: 'Icon', sans-serif;
+}
+.icon.menuIcon::after{
+    content: "a";
+}
+/* MOBILE */
+.menuHamburger{
+    display: none;
+}
+@media (max-width: 500px){
+    .container{
+        width: 90%;
+    }
+    .menu{
+        display: none;
+    }
+    .menuHamburger{
+        display: flex;
+    }
+    .menuHamburger > .navItem{
+        width: 20%;
+        font-size: 48px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
 }
