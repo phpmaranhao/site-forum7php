@@ -16,8 +16,8 @@ class WhoController
         $this->app = $app;
     }
 
-    public function RenderizaViewComNomeDoFulano()
+    public function PalestranteA()
     {
-        return "RenderizaViewComNomeDoFulano";
+        return $this->app['twig']->render('/who/palestranteA.twig');
     }
 }

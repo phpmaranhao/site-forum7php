@@ -11,6 +11,6 @@ class RouterServiceProvider implements ServiceProviderInterface
     {
         $app->get('/', "home:home");
 
-        $app->get('/who/', "who:RenderizaViewComNomeDoFulano");
+        $app->get('/who/PalestranteA/', "who:PalestranteA");
     }
 }
