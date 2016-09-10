@@ -9,8 +9,14 @@ class RouterServiceProvider implements ServiceProviderInterface
 {
     public function register(Container $app)
     {
+        /**
+         * Root Route
+         */
         $app->get('/', "home:home");
 
+        /**
+         * Who Routes
+         */
         $app->get('/who/speaker_A/', "who:speaker_A");
         $app->get('/who/speaker_B/', "who:speaker_B");
         $app->get('/who/speaker_C/', "who:speaker_C");
@@ -26,5 +32,15 @@ class RouterServiceProvider implements ServiceProviderInterface
         $app->get('/who/speaker_N/', "who:speaker_N");
         $app->get('/who/speaker_O/', "who:speaker_O");
         $app->get('/who/speaker_P/', "who:speaker_P");
+
+        /**
+         * How Much Routes
+         */
+        $app->get('/howmuch/', "howmuch:howmuch");
+
+        /**
+         * When Routes
+         */
+        $app->get('/when/', "when:when");
     }
 }
