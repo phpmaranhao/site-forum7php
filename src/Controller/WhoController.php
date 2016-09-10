@@ -18,22 +18,32 @@ class WhoController
 
     public function speaker_A()
     {
-        return $this->app['twig']->render('/who/palestranteA.twig');
+        return $this->app['twig']->render('/who/speaker_A.twig');
     }
 
     public function speaker_B()
     {
-        return "Sem View Para este Palestrante ainda";
+        return "Ainda não tem nada pra ser mostrado aqui...
+        que triste ... estou me sentindo sozinho e isolado,
+        vou assistir BreakingBad.";
     }
 
     public function speaker_C()
     {
-        return "Sem View Para este Palestrante ainda";
+        return "Ainda não tem nada pra ser mostrado aqui...
+        que triste ... estou me sentindo sozinho e isolado...";
     }
 
     public function speaker_D()
     {
-        return "Sem View Para este Palestrante ainda";
+        return "Eu desço dessa solidão
+                Espalho coisas
+                Sobre um Chão de Giz
+                Há meros devaneios tolos
+                A me torturar
+                Fotografias recortadas
+                Em jornais de folhas
+                Amiúde!";
     }
 
     public function speaker_E()
