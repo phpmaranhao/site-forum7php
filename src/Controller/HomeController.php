@@ -18,6 +18,31 @@ class HomeController
 
     public function home()
     {
-        return $this->app['twig']->render('home.twig');
+        /**
+         * Name of the speakers will be added here
+         */
+        $speakerName = array(
+             "speaker_A"
+            ,"speaker_B"
+            ,"speaker_C"
+            ,"speaker_D"
+            ,"speaker_E"
+            ,"speaker_F"
+            ,"speaker_G"
+            ,"speaker_H"
+            ,"speaker_I"
+            ,"speaker_J"
+            ,"speaker_L"
+            ,"speaker_M"
+            ,"speaker_N"
+            ,"speaker_O"
+            ,"speaker_P"
+        );
+
+        return $this->app['twig']->render('home.twig',
+            [
+                 'link_who'    => '/who'
+                ,'speakerName' => $speakerName
+            ]);
     }
 }
