@@ -4,26 +4,23 @@ namespace ForumPHPMA\Controller;
 
 use Silex\Application;
 
-class HomeController
-{
+class HomeController{
     /**
      * @var Application
      */
     private $app;
 
-    public function __construct($app)
-    {
+    public function __construct($app){
         $this->app = $app;
     }
 
-    public function home()
-    {
+    public function home(){
         /**
          * Name of the speakers will be added here
          */
         $speakerName = array(
-             "speaker_A"
-            ,"speaker_B"
+            "atmos-maciel"
+            ,"fabio-soares"
             ,"speaker_C"
             ,"speaker_D"
             ,"speaker_E"
@@ -41,7 +38,7 @@ class HomeController
 
         return $this->app['twig']->render('home.twig',
             [
-                 'link_who'    => '/who'
+                 'link_who'    => '/quem'
                 ,'speakerName' => $speakerName
             ]);
     }

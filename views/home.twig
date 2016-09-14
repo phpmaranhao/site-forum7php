@@ -1,22 +1,7 @@
 {% extends 'base/template.twig' %}
 
 {% block content %}
-
-<!--    BARRA DE NAVEGAÇÃO      -->
-<header class="navBar" id="navBar">
-    <nav class="container">
-        <div class="grid menu">
-            <a href="#" class="column navItem">O QUÊ</a>
-            <a href="#" class="column navItem">QUEM</a>
-            <a href="#" class="column navItem">QUANDO</a>
-            <a href="#" class="column navItem">ONDE</a>
-            <a href="#" class="column navItem">QUANTO</a>
-        </div>
-    </nav>
-    <div class="grid menuHamburger">
-        <a href="#" class="column navItem"><span class="icon menuIcon"></span></a>
-    </div>
-</header>
+{% include 'includes/navbar.twig' %}
 <!--        BANNER PRINCIPAL        -->
 <main class="mainBanner">
     <img src="assets/img/logo-7php.svg" class="blockCenter">
@@ -115,7 +100,7 @@
             </div>
         </header>
         <article class="container">
-            <div class="grid">
+            <div class="grid gridWho">
                 <div class="column">
                     <a href="{{ link_who }}/{{ speakerName[0] }}/">
                         <img src="assets/img/img.png" class="imgResponsive">
@@ -143,7 +128,7 @@
                 </div>
             </div>
             <br>
-            <div class="grid">
+            <div class="grid gridWho">
                 <div class="column">
                     <a href="{{ link_who }}/{{ speakerName[5] }}/">
                         <img src="assets/img/img.png" class="imgResponsive">
@@ -171,7 +156,7 @@
                 </div>
             </div>
             <br>
-            <div class="grid">
+            <div class="grid gridWho">
                 <div class="column">
                     <a href="{{ link_who }}/{{ speakerName[10] }}/">
                         <img src="assets/img/img.png" class="imgResponsive">
@@ -291,5 +276,4 @@
         </article>
     </section>
 </main>
-
 {% endblock %}
