@@ -1,12 +1,12 @@
 {% block navbar %}
 <header class="navBar" id="navBar">
     <nav class="container">
-        <div class="grid menu">
-            <a href="/" class="column navItem">O QUÊ</a>
-            <a href="/quem" class="column navItem">QUEM</a>
-            <a href="/quando" class="column navItem">QUANDO</a>
-            <a href="/onde" class="column navItem">ONDE</a>
-            <a href="/quanto" class="column navItem">QUANTO</a>
+        <div class="grid menu" id="menu">
+            <a href="#what" class="column navItem">O QUÊ</a>
+            <a href="#sectionWho" class="column navItem">QUEM</a>
+            <a href="#sectionWhen" class="column navItem">QUANDO</a>
+            <a href="#sectionWhere" class="column navItem">ONDE</a>
+            <a href="#sectionHowMuch" class="column navItem">QUANTO</a>
         </div>
     </nav>
     <div class="grid menuHamburger">
@@ -14,10 +14,10 @@
     </div>
     <div id="mySidenav" class="sidenav">
         <a class="closebtn" id="closeSideNav">&times;</a>
-        <a href="/quem">O QUÊ</a>
-        <a href="/qundo">QUEM</a>
-        <a href="/onde">ONDE</a>
-        <a href="/quanto">QUANTO</a>
+        <a href="#what">O QUÊ</a>
+        <a href="#sectionWho">QUEM</a>
+        <a href="#sectionWhen">ONDE</a>
+        <a href="#sectionHowMuch">QUANTO</a>
     </div>
 </header>
 {% endblock %}

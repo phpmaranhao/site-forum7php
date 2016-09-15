@@ -3,7 +3,7 @@
 {% block content %}
 {% include 'includes/navbar.twig' %}
 <!--        BANNER PRINCIPAL        -->
-<main class="mainBanner">
+<main class="mainBanner" id="fullpage">
     <img src="assets/img/logo-7php.svg" class="blockCenter">
     <!--            CODE REVOLUTION         -->
     <section class="codeRevolution container">
@@ -93,7 +93,7 @@
         </article>
     </section>
     <!--        SESSÃO QUEM         -->
-    <section class="sectionWho">
+    <section class="sectionWho" id="sectionWho">
         <header class="sectionHeader who">
             <div class="container">
                 <h1>QUEM</h1>
@@ -118,12 +118,12 @@
                 </div>
                 <div class="column">
                     <a href="{{ link_who }}/{{ speakerName[3] }}/">
-                        <img src="assets/img/img.png" class="imgResponsive">
+                        <img src="assets/img/speakers/nanderson-castro.jpg" class="imgResponsive">
                     </a>
                 </div>
                 <div class="column">
                     <a href="{{ link_who }}/{{ speakerName[4] }}/">
-                        <img src="assets/img/img.png" class="imgResponsive">
+                        <img src="assets/img/speakers/ricardo-coelho.jpg" class="imgResponsive">
                     </a>
                 </div>
             </div>
@@ -187,7 +187,7 @@
         </article>
     </section>
     <!--            SESSÃO QUANDO           -->
-    <section class="sectionWhen">
+    <section class="sectionWhen" id="sectionWhen">
         <div class="sectionHeader when">
             <div class="container">
                 <h1>Quando</h1>
@@ -198,7 +198,7 @@
                 <div class="column textWhite blockCenter">
                     <!--         DATA       -->
                     <h1>10, 11 e 12</h1>
-                    <h1>AGOSTO</h1>
+                    <h1>NOVEMBRO</h1>
                     <h1>2016</h1>
                     <h1>Em São Luís, ilha do amor</h1>
                 </div>
@@ -213,7 +213,7 @@
         <br>
     </section>
     <!--     SESSÃO ONDE      -->
-    <section class="sectionWhere">
+    <section class="sectionWhere" id="sectionWhere">
         <header class="sectionHeader where">
             <div class="container">
                 <h1>Onde</h1>
@@ -244,7 +244,7 @@
         <br>
     </section>
     <!--    SESSÃO QUANTO   -->
-    <section class="sectionHowMuch">
+    <section class="sectionHowMuch" id="sectionHowMuch">
         <header class="sectionHeader howMuch">
             <div class="container">
                 <h1>Quanto</h1>

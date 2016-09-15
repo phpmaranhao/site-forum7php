@@ -19,12 +19,12 @@ class HomeController{
          * Name of the speakers will be added here
          */
         $speakerName = array(
-            "atmos-maciel"
+             "atmos-maciel"
+            ,"evaldo-barbosa"
             ,"fabio-soares"
-            ,"speaker_C"
-            ,"speaker_D"
-            ,"speaker_E"
-            ,"speaker_F"
+            ,"nanderson-castro"
+            ,"ricardo-coelho"
+            ,"william-mano"
             ,"speaker_G"
             ,"speaker_H"
             ,"speaker_I"

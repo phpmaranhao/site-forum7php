@@ -19,33 +19,23 @@ class WhoController{
     }
 
     public function speaker_B(){
-        return "Ainda não tem nada pra ser mostrado aqui...
-        que triste ... estou me sentindo sozinho e isolado,
-        vou assistir BreakingBad.";
+        return $this->app['twig']->render('/who/speaker_B.twig');
     }
 
     public function speaker_C(){
-        return "Ainda não tem nada pra ser mostrado aqui...
-        que triste ... estou me sentindo sozinho e isolado...";
+        return $this->app['twig']->render('/who/speaker_C.twig');
     }
 
     public function speaker_D(){
-        return "Eu desço dessa solidão
-                Espalho coisas
-                Sobre um Chão de Giz
-                Há meros devaneios tolos
-                A me torturar
-                Fotografias recortadas
-                Em jornais de folhas
-                Amiúde!";
+        return $this->app['twig']->render('/who/speaker_D.twig');
     }
 
     public function speaker_E(){
-        return "Sem View Para este Palestrante ainda";
+        return $this->app['twig']->render('/who/speaker_E.twig');
     }
 
     public function speaker_F(){
-        return "Sem View Para este Palestrante ainda";
+        return $this->app['twig']->render('/who/speaker_F.twig');
     }
 
     public function speaker_G(){
