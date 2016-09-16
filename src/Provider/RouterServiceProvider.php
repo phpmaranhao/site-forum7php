@@ -15,12 +15,12 @@ class RouterServiceProvider implements ServiceProviderInterface{
         /**
          * Who Routes
          */
-        $app->get('/quem/fabio-soares/', "who:speaker_A");
-        $app->get('/quem/atmos-maciel/', "who:speaker_B");
-        $app->get('/quem/speaker_C/', "who:speaker_C");
-        $app->get('/quem/speaker_D/', "who:speaker_D");
-        $app->get('/quem/speaker_E/', "who:speaker_E");
-        $app->get('/quem/speaker_F/', "who:speaker_F");
+        $app->get('/quem/atmos-maciel/'  , "who:speaker_A");
+        $app->get('/quem/evaldo-barbosa/', "who:speaker_B");
+        $app->get('/quem/fabio-soares/'  , "who:speaker_C");
+        $app->get('/quem/nanderson-castro/', "who:speaker_D");
+        $app->get('/quem/ricardo-coelho/', "who:speaker_E");
+        $app->get('/quem/william-mano/'  , "who:speaker_F");
         $app->get('/quem/speaker_G/', "who:speaker_G");
         $app->get('/quem/speaker_H/', "who:speaker_H");
         $app->get('/quem/speaker_I/', "who:speaker_I");
@@ -32,13 +32,15 @@ class RouterServiceProvider implements ServiceProviderInterface{
         $app->get('/quem/speaker_P/', "who:speaker_P");
 
         /**
+         * When Routes
+         */
+        $app->get('/quando/', "when:when");
+
+        /**
          * How Much Routes
          */
         $app->get('/quanto/', "howmuch:howmuch");
 
-        /**
-         * When Routes
-         */
-        $app->get('/quando/', "when:when");
+
     }
 }
