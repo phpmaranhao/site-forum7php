@@ -1,0 +1,56 @@
+{% extends '/base/template.twig' %}
+
+{% block content %}
+    {% include '/includes/navbar.twig' %}
+    <section class="paralax who">
+        <img src="/assets/img/{{ photo }}" class="imgResponsive">
+    </section>
+    <main class="sectionWho">
+        <header class="sectionHeader who">
+            <div class="container">
+                <h1>{{ name }}</h1>
+            </div>
+        </header>
+        <article class="container textWhite textJustify content">
+            <p>{{ description }}</p>
+            <p class="socialNetworkLinks">
+                <a href="#"><span class="icon facebookIcon"></span></a>
+                <a href="#"><span class="icon twitterIcon"></span></a>
+                <a href="#"><span class="icon pinterestIcon"></span></a>
+                <a href="#"><span class="icon googlePlusIcon"></span></a>
+                <a href="#"><span class="icon tumblrIcon"></span></a>
+                <a href="#"><span class="icon wordPressIcon"></span></a>
+                <a href="#"><span class="icon instagramIcon"></span></a>
+                <a href="#"><span class="icon dribbleIcon"></span></a>
+                <a href="#"><span class="icon linkedInIcon"></span></a>
+                <a href="#"><span class="icon youTubeIcon"></span></a>
+            </p>
+        </article>
+        <br>
+        <header class="sectionHeader who">
+            <div class="container">
+                <h1>{{ type }}</h1>
+            </div>
+        </header>
+        <article class="container textWhite textJustify content">
+            <div class="grid gridWho">
+                <div class="column">
+                    <img src="/assets/img/{{ slidePhoto }}" class="imgResponsive">
+                </div>
+                <div class="column">
+                    <h1>{{ slideName }}</h1>
+                    <p>
+                        {{ slideDescription }}
+                    </p>
+                    <p>
+                        <a href="{{ slideLink }}" class="button buttonPrimary"><span class="icon documentIcon"></span> Slide</a>
+                    </p>
+                </div>
+            </div>
+
+        </article>
+
+
+    </main>
+
+{% endblock %}

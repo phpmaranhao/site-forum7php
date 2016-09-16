@@ -15,13 +15,21 @@ class WhoController{
     }
 
     public function speaker_A(){
-        return $this->app['twig']->render('/who/speaker_A.twig');
+        return $this->app['twig']->render('/who/speaker.twig');
     }
 
     public function speaker_B(){
-        return "Ainda não tem nada pra ser mostrado aqui...
-        que triste ... estou me sentindo sozinho e isolado,
-        vou assistir BreakingBad.";
+        $content                     = array();
+        $content['name']             = "Atmos Maciel";
+        $content['photo']            = "rocket-night.jpg";
+        $content['description']      = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat. Praesent id enim justo. Ut lacinia rutrum ex, a aliquam enim dignissim at. Curabitur ut orci sit amet arcu cursus accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sit amet tortor justo. Duis feugiat tristique arcu, vel semper lectus fermentum facilisis. Sed ac magna a ipsum ornare pulvinar.";
+        $content['type']             = "Palestra";
+        $content['slidePhoto']       = "rocket-night.jpg";
+        $content['slideName']        = "Foguetes e a Nasa";
+        $content['slideDescription'] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat.";
+        $content['slideLink']        = "http://speakerdeck.com/fsoares/slide";
+
+        return $this->app['twig']->render('/who/speaker.twig', $content);
     }
 
     public function speaker_C(){

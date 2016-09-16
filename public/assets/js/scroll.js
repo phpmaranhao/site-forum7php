@@ -1,7 +1,6 @@
 /**
  * Created by Fabio Soares on 27/08/2016.
  */
-
 function addClass(element, stringClass){
     let classes = element.className;
 
@@ -21,7 +20,6 @@ function removeClass(element, stringClass){
     classes = classes.join(' ');
     element.className = classes;
 }
-
 function ajustTopbar(elements){
     if(window.pageYOffset > 30){
         for(let i = 0; i < elements.length; i++){
@@ -33,25 +31,25 @@ function ajustTopbar(elements){
         }
     }
 }
+
 window.addEventListener('load', function(){
     var navBar = document.getElementById('navBar');
     var elements = document.getElementsByClassName('navItem');
-    var topicElements = document.getElementsByClassName('sectionHeader');
     var sidenav = document.getElementById('mySidenav');
+    var topicElements = document.getElementsByClassName('sectionHeader');
+
     // Side nav
     document.getElementById("openSideNav").addEventListener('click', function(){
         sidenav.style.width = "250px";
     });
 
     document.getElementById('closeSideNav').addEventListener('click', function () {
-           sidenav.style.width = "0";
+        sidenav.style.width = "0";
     });
-    if(window.innerWidth > 500){
-        ajustTopbar(elements);
-    }
-    window.addEventListener('scroll', function(){
-        if(window.innerWidth > 500) {
-            ajustTopbar(elements);
+
+    window.addEventListener('scroll', function () {
+        if (window.innerWidth > 500) {
+            ajustTopbar(document.getElementsByClassName('navItem'));
         }
         removeClass(navBar, "what");
         removeClass(navBar, "who");
@@ -70,33 +68,34 @@ window.addEventListener('load', function(){
         removeClass(elements[2], 'onWhen');
         removeClass(elements[3], 'onWhere');
         removeClass(elements[4], 'onHowMuch');
-        if(window.pageYOffset+40 >= topicElements[0].offsetTop && window.pageYOffset+40 < topicElements[1].offsetTop){
+        if (window.pageYOffset + 40 >= topicElements[0].offsetTop && window.pageYOffset + 40 < topicElements[1].offsetTop) {
             addClass(elements[0], 'onWhat');
             addClass(navBar, "what");
             addClass(sidenav, "what");
         }
-        if(window.pageYOffset+40 >= topicElements[1].offsetTop && window.pageYOffset+40 < topicElements[2].offsetTop){
+        if (window.pageYOffset + 40 >= topicElements[1].offsetTop && window.pageYOffset + 40 < topicElements[2].offsetTop) {
             addClass(elements[1], 'onWho');
             addClass(navBar, "who");
             addClass(sidenav, "who");
         }
-        if(window.pageYOffset+40 >= topicElements[2].offsetTop && window.pageYOffset+40 < topicElements[3].offsetTop){
+        if (window.pageYOffset + 40 >= topicElements[2].offsetTop && window.pageYOffset + 40 < topicElements[3].offsetTop) {
             addClass(elements[2], 'onWhen');
             addClass(navBar, "when");
             addClass(sidenav, "when");
         }
-        if(window.pageYOffset+40 >= topicElements[3].offsetTop && window.pageYOffset+40 < topicElements[4].offsetTop){
+        if (window.pageYOffset + 40 >= topicElements[3].offsetTop && window.pageYOffset + 40 < topicElements[4].offsetTop) {
             addClass(elements[3], 'onWhere');
             addClass(navBar, "where");
             addClass(sidenav, "where");
         }
-        if(window.pageYOffset+40 >= topicElements[4].offsetTop){
+        if (window.pageYOffset + 40 >= topicElements[4].offsetTop) {
             addClass(elements[4], 'onHowMuch');
             addClass(navBar, "howMuch");
             addClass(sidenav, "howMuch");
         }
 
     });
+
     window.addEventListener('resize', function(){
         topicElements = document.getElementsByClassName('sectionHeader');
     });
