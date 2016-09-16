@@ -16,7 +16,7 @@ class WhenController
         $this->app = $app;
     }
 
-    public function when()
+    public function eventSchedule()
     {
         return "redirect to event schedule";
     }

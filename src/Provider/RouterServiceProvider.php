@@ -34,12 +34,12 @@ class RouterServiceProvider implements ServiceProviderInterface{
         /**
          * When Routes
          */
-        $app->get('/quando/', "when:when");
+        $app->get('/quando/programacao/', "when:eventschedule");
 
         /**
          * How Much Routes
          */
-        $app->get('/quanto/', "howmuch:howmuch");
+        $app->get('/quanto/comprar-entrada/', "howmuch:getinvitation");
 
 
     }

@@ -38,8 +38,10 @@ class HomeController{
 
         return $this->app['twig']->render('home.twig',
             [
-                 'link_who'    => '/quem'
-                ,'speakerName' => $speakerName
+                 'link_who'     => '/quem'
+                ,'link_when'    => '/quando'
+                ,'link_howmuch' => '/quanto'
+                ,'speakerName'  => $speakerName
             ]);
     }
 }
