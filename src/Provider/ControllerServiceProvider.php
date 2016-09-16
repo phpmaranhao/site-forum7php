@@ -9,10 +9,8 @@ use Pimple\ServiceProviderInterface;
 use ForumPHPMA\Controller\HomeController;
 use ForumPHPMA\Controller\WhoController;
 
-class ControllerServiceProvider implements ServiceProviderInterface
-{
-    public function register(Container $app)
-    {
+class ControllerServiceProvider implements ServiceProviderInterface{
+    public function register(Container $app){
         $app['home'] = function () use ($app){
             return new HomeController($app);
         };
