@@ -65,6 +65,10 @@ a:active{
 .imgResponsive{
     max-width:100%;
 }
+.imgCenter{
+    display:block;
+    margin: 0 auto;
+}
 .navBar{
     width:100%;
     background-color:#51c8d8;
@@ -152,6 +156,9 @@ a:active{
 }
 .sectionWho{
     background-color:#308274;
+}
+main.sectionWho{
+    padding-top: 79px;
 }
 .sectionWhen{
     background-color:#5a9158;
@@ -275,5 +282,8 @@ a.button.buttonPrimary:hover{
     .gridWho .column{
         max-width:100%;
         overflow:hidden;
+    }
+    main.sectionWho{
+        padding-top: 59px;
     }
 }

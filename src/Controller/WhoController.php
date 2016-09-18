@@ -17,7 +17,7 @@ class WhoController{
     public function speaker_A(){
         $content                     = array();
         $content['name']             = "Atmos Maciel";
-        $content['photo']            = "rocket-night.jpg";
+        $content['photo']            =  false;
         $content['photo_speaker']    = "nanderson-castro.jpg";
         $content['description']      = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat. Praesent id enim justo. Ut lacinia rutrum ex, a aliquam enim dignissim at. Curabitur ut orci sit amet arcu cursus accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sit amet tortor justo. Duis feugiat tristique arcu, vel semper lectus fermentum facilisis. Sed ac magna a ipsum ornare pulvinar.";
         $content['type']             = "Palestra";
@@ -32,7 +32,7 @@ class WhoController{
     public function speaker_B(){
         $content                     = array();
         $content['name']             = "Evaldo Barbosa";
-        $content['photo']            = "rocket-night.jpg";
+        $content['photo']            =  false;
         $content['photo_speaker']    = "nanderson-castro.jpg";
         $content['description']      = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat. Praesent id enim justo. Ut lacinia rutrum ex, a aliquam enim dignissim at. Curabitur ut orci sit amet arcu cursus accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sit amet tortor justo. Duis feugiat tristique arcu, vel semper lectus fermentum facilisis. Sed ac magna a ipsum ornare pulvinar.";
         $content['type']             = "Palestra";
@@ -47,8 +47,8 @@ class WhoController{
     public function speaker_C(){
         $content                     = array();
         $content['name']             = "Fabio Soares";
-        $content['photo']            = "rocket-night.jpg";
-        $content['photo_speaker']    = "nanderson-castro.jpg";
+        $content['photo']            = "fabio-soares.jpg";
+        $content['photo_speaker']    = "fabio-soares.jpg";
         $content['description']      = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat. Praesent id enim justo. Ut lacinia rutrum ex, a aliquam enim dignissim at. Curabitur ut orci sit amet arcu cursus accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sit amet tortor justo. Duis feugiat tristique arcu, vel semper lectus fermentum facilisis. Sed ac magna a ipsum ornare pulvinar.";
         $content['type']             = "Palestra";
         $content['slidePhoto']       = "rocket-night.jpg";
@@ -62,7 +62,7 @@ class WhoController{
     public function speaker_D(){
         $content                     = array();
         $content['name']             = "Nanderson Castro";
-        $content['photo']            = "rocket-night.jpg";
+        $content['photo']            =  false;
         $content['photo_speaker']    = "nanderson-castro.jpg";
         $content['photo']            = "/speakers/nanderson-castro.jpg";
         $content['description']      = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat. Praesent id enim justo. Ut lacinia rutrum ex, a aliquam enim dignissim at. Curabitur ut orci sit amet arcu cursus accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sit amet tortor justo. Duis feugiat tristique arcu, vel semper lectus fermentum facilisis. Sed ac magna a ipsum ornare pulvinar.";
@@ -78,8 +78,8 @@ class WhoController{
     public function speaker_E(){
         $content                     = array();
         $content['name']             = "Ricardo Coelho";
-        $content['photo']            = "rocket-night.jpg";
-        $content['photo_speaker']    = "nanderson-castro.jpg";
+        $content['photo']            = false;
+        $content['photo_speaker']    = "ricardo-coelho.jpg";
         $content['photo']            = "/speakers/ricardo-coelho.jpg";
         $content['description']      = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat. Praesent id enim justo. Ut lacinia rutrum ex, a aliquam enim dignissim at. Curabitur ut orci sit amet arcu cursus accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sit amet tortor justo. Duis feugiat tristique arcu, vel semper lectus fermentum facilisis. Sed ac magna a ipsum ornare pulvinar.";
         $content['type']             = "Palestra";
