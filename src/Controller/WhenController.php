@@ -18,6 +18,6 @@ class WhenController
 
     public function eventSchedule()
     {
-        return "redirect to event schedule";
+        return fopen("../../public/assets/docs/programacao.md","r");
     }
 }

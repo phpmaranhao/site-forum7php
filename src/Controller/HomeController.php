@@ -36,7 +36,7 @@ class HomeController{
             ,"speaker_P"
         );
         $speakerRealName = array(
-            "Atmos Maciel"
+             "Atmos Maciel"
             ,"Evaldo Barbosa"
             ,"Fabio Soares"
             ,"Nanderson Castro"
