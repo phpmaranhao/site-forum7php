@@ -5,39 +5,13 @@
 {% include 'includes/navbar.twig' %}
 <!--        BANNER PRINCIPAL        -->
 <main class="mainBanner" id="fullpage">
-    <img src="assets/img/logo-7php.svg" class="blockCenter">
-    <!--            CODE REVOLUTION         -->
-    <section class="codeRevolution container">
-        <div class="grid">
-            <div class="column textCenter">2</div>
-            <div class="column textCenter">0</div>
-            <div class="column textCenter">1</div>
-            <div class="column textCenter">6</div>
-        </div>
-        <div class="grid">
-            <div class="column textCenter">C</div>
-            <div class="column textCenter">O</div>
-            <div class="column textCenter">D</div>
-            <div class="column textCenter">E</div>
-        </div>
-        <div class="grid">
-            <div class="column textCenter">R</div>
-            <div class="column textCenter">E</div>
-            <div class="column textCenter">V</div>
-            <div class="column textCenter">O</div>
-        </div>
-        <div class="grid">
-            <div class="column textCenter">L</div>
-            <div class="column textCenter">U</div>
-            <div class="column textCenter">T</div>
-            <div class="column textCenter">I</div>
-        </div>
-        <div class="grid">
-            <div class="column textCenter">O</div>
-            <div class="column textCenter">N</div>
-            <div class="column textCenter">&nbsp;</div>
-            <div class="column textCenter">&nbsp;</div>
-        </div>
+    <section class="homeBanner">
+
+        <img src="assets/img/logo-7php.svg" class="blockCenter">
+        <!--            CODE REVOLUTION         -->
+        <section class="codeRevolution container">
+            <img src="/assets/img/coderevolution.svg" class="imgResponsive" width="200">
+        </section>
     </section>
     <!--       SESSÃO O QUÊ        -->
     <section id="what">
@@ -64,86 +38,161 @@
             </div>
         </header>
         <article class="container">
-            <div class="grid gridWho">
+            <div class="grid gridResponsive">
                 <div class="column">
                     <a href="{{ link_who }}/{{ speakerName[0] }}/">
-                        <img src="assets/img/img.png" class="imgResponsive">
+                        <figure class="capIn">
+                            <img src="assets/img/img.png" class="imgResponsive imgCenter">
+                            <figcaption>
+                                {{ speakerRealName[0] }}
+                            </figcaption>
+                        </figure>
                     </a>
                 </div>
                 <div class="column">
                     <a href="{{ link_who }}/{{ speakerName[1] }}/">
-                        <img src="assets/img/img.png" class="imgResponsive">
+                        <figure class="capIn">
+                            <img src="assets/img/img.png" class="imgResponsive imgCenter">
+                            <figcaption>
+                                {{ speakerRealName[1] }}
+                            </figcaption>
+                        </figure>
                     </a>
                 </div>
                 <div class="column">
                     <a href="{{ link_who }}/{{ speakerName[2] }}/">
-                        <img src="assets/img/speakers/fabio-soares.jpg" class="imgResponsive">
+                        <figure class="capIn">
+                            <img src="assets/img/speakers/fabio-soares.jpg" class="imgResponsive imgCenter">
+                            <figcaption>
+                                {{ speakerRealName[2] }}
+                            </figcaption>
+                        </figure>
                     </a>
                 </div>
                 <div class="column">
                     <a href="{{ link_who }}/{{ speakerName[3] }}/">
-                        <img src="assets/img/speakers/nanderson-castro.jpg" class="imgResponsive">
+                        <figure class="capIn">
+                            <img src="assets/img/speakers/nanderson-castro.jpg" class="imgResponsive imgCenter">
+                            <figcaption>
+                                {{ speakerRealName[3] }}
+                            </figcaption>
+                        </figure>
                     </a>
                 </div>
                 <div class="column">
                     <a href="{{ link_who }}/{{ speakerName[4] }}/">
-                        <img src="assets/img/speakers/ricardo-coelho.jpg" class="imgResponsive">
+                        <figure class="capIn">
+                            <img src="assets/img/speakers/ricardo-coelho.jpg" class="imgResponsive imgCenter">
+                            <figcaption>
+                                {{ speakerRealName[4] }}
+                            </figcaption>
+                        </figure>
                     </a>
                 </div>
             </div>
             <br>
-            <div class="grid gridWho">
+            <div class="grid gridResponsive">
                 <div class="column">
                     <a href="{{ link_who }}/{{ speakerName[5] }}/">
-                        <img src="assets/img/img.png" class="imgResponsive">
+                        <figure class="capIn">
+                            <img src="assets/img/img.png" class="imgResponsive imgCenter">
+                            <figcaption>
+                                {{ speakerRealName[5] }}
+                            </figcaption>
+                        </figure>
                     </a>
                 </div>
                 <div class="column">
                     <a href="{{ link_who }}/{{ speakerName[6] }}/">
-                        <img src="assets/img/img.png" class="imgResponsive">
+                        <figure class="capIn">
+                            <img src="assets/img/img.png" class="imgResponsive imgCenter">
+                            <figcaption>
+                                {{ speakerRealName[6] }}
+                            </figcaption>
+                        </figure>
                     </a>
                 </div>
                 <div class="column">
                     <a href="{{ link_who }}/{{ speakerName[7] }}/">
-                        <img src="assets/img/img.png" class="imgResponsive">
+                        <figure class="capIn">
+                            <img src="assets/img/img.png" class="imgResponsive imgCenter">
+                            <figcaption>
+                                {{ speakerRealName[7] }}
+                            </figcaption>
+                        </figure>
                     </a>
                 </div>
                 <div class="column">
                     <a href="{{ link_who }}/{{ speakerName[8] }}/">
-                        <img src="assets/img/img.png" class="imgResponsive">
+                        <figure class="capIn">
+                            <img src="assets/img/img.png" class="imgResponsive imgCenter">
+                            <figcaption>
+                                {{ speakerRealName[8] }}
+                            </figcaption>
+                        </figure>
                     </a>
                 </div>
                 <div class="column">
                     <a href="{{ link_who }}/{{ speakerName[9] }}/">
-                        <img src="assets/img/img.png" class="imgResponsive">
+                        <figure class="capIn">
+                            <img src="assets/img/img.png" class="imgResponsive imgCenter">
+                            <figcaption>
+                                {{ speakerRealName[9] }}
+                            </figcaption>
+                        </figure>
                     </a>
                 </div>
             </div>
             <br>
-            <div class="grid gridWho">
+            <div class="grid gridResponsive">
                 <div class="column">
                     <a href="{{ link_who }}/{{ speakerName[10] }}/">
-                        <img src="assets/img/img.png" class="imgResponsive">
+                        <figure class="capIn">
+                            <img src="assets/img/img.png" class="imgResponsive imgCenter">
+                            <figcaption>
+                                {{ speakerRealName[10] }}
+                            </figcaption>
+                        </figure>
                     </a>
                 </div>
                 <div class="column">
                     <a href="{{ link_who }}/{{ speakerName[11] }}/">
-                        <img src="assets/img/img.png" class="imgResponsive">
+                        <figure class="capIn">
+                            <img src="assets/img/img.png" class="imgResponsive imgCenter">
+                            <figcaption>
+                                {{ speakerRealName[11] }}
+                            </figcaption>
+                        </figure>
                     </a>
                 </div>
                 <div class="column">
                     <a href="{{ link_who }}/{{ speakerName[12] }}/">
-                        <img src="assets/img/img.png" class="imgResponsive">
+                        <figure class="capIn">
+                            <img src="assets/img/img.png" class="imgResponsive imgCenter">
+                            <figcaption>
+                                {{ speakerRealName[12] }}
+                            </figcaption>
+                        </figure>
                     </a>
                 </div>
                 <div class="column">
                     <a href="{{ link_who }}/{{ speakerName[13] }}/">
-                        <img src="assets/img/img.png" class="imgResponsive">
+                        <figure class="capIn">
+                            <img src="assets/img/img.png" class="imgResponsive imgCenter">
+                            <figcaption>
+                                {{ speakerRealName[13] }}
+                            </figcaption>
+                        </figure>
                     </a>
                 </div>
                 <div class="column">
                     <a href="{{ link_who }}/{{ speakerName[14] }}/">
-                        <img src="assets/img/img.png" class="imgResponsive">
+                        <figure class="capIn">
+                            <img src="assets/img/img.png" class="imgResponsive imgCenter">
+                            <figcaption>
+                                {{ speakerRealName[14] }}
+                            </figcaption>
+                        </figure>
                     </a>
                 </div>
             </div>
@@ -161,15 +210,15 @@
             <div class="grid">
                 <div class="column textWhite blockCenter">
                     <!--         DATA       -->
-                    <h1>10, 11 e 12</h1>
-                    <h1>NOVEMBRO</h1>
-                    <h1>2016</h1>
-                    <h1>Em São Luís, ilha do amor</h1>
+                    <h1 class="date">11 e 12</h1>
+                    <h1 class="date">NOVEMBRO</h1>
+                    <h1 class="date">2016</h1>
+                    <h2>Em São Luís, ilha do amor</h2>
                 </div>
                 <div class="column textCenter">
                     <!--         PROGRAMAÇÃO        -->
                     <a href="{{ link_when }}/programacao/">
-                        <img src="assets/img/programacao.png" class="imgResponsive">
+                        <img src="assets/img/programacao.svg" class="imgResponsive" width="150">
                     </a>
                 </div>
             </div>
@@ -184,11 +233,11 @@
             </div>
         </header>
         <article class="container content">
-            <div class="grid">
-                <div class="column textCenter">
-                    <h2>AUDITÓRIO<br>PITÁGORAS</h2>
+            <div class="grid gridResponsive">
+                <div class="column textWhite textCenter">
+                    <h2 class="adress">AUDITÓRIO<br>PITÁGORAS</h2>
                 </div>
-                <div class="column">
+                <div class="column textWhite mTextCenter">
                     <p>
                         AVENIDA SÃO LUÍS REI DE FRANÇA<br>
                         FACULDADE PITÁGORAS<br>
@@ -197,11 +246,10 @@
                     </p>
                 </div>
             </div>
-
             <!--Só pra não acabar com minha banda de dados móveis-->
             <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.8687477167264!2d-44.24267818574959!3d-2.549599439026684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7f69030d0146f8b%3A0x874f6faa8c29b0a7!2sFaculdade+Santa+Teresinha!5e0!3m2!1sen!2sbr!4v1473021340378" width="1750" height="500" frameborder="0" style="border:0" allowfullscreen class="imgResponsive blockCenter"></iframe>-->
 
-            <div class="textCenter">
+            <div class="textCenter textWhite">
                 <h1>OU ABRA AS CORDENADAS NO APP</h1>
             </div>
         </article>

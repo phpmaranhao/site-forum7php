@@ -73,6 +73,7 @@ a:active{
     width:100%;
     background-color:#51c8d8;
     transition-property:background-color;
+    z-index: 1;
 }
 .navItem{
     text-align:center;
@@ -90,6 +91,12 @@ a:active{
 .mainBanner{
     background-color:#3c6e6d;
     padding-top:140px;
+    background-image: url("../img/background.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.homeBanner{
 }
 .codeRevolution{
     font-weight:900;
@@ -252,7 +259,34 @@ a.button.buttonPrimary:hover{
     font-size:36px;
     margin-left:50px;
 }
-@media screen and (max-width:500px){
+/* LEGENDAS */
+figure {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin: 0 20px 20px 0;
+}
+figcaption {
+    position: absolute;
+    background: #3FA47E;
+    background: rgba(63,124,126,0.75);
+    color: white;
+    padding: 10px 20px;
+    opacity: 0;
+    transition: all 0.6s ease;
+}
+figure:hover figcaption {
+    opacity: 1;
+}
+.capIn figcaption { left: 0; bottom: -30%;}
+.capIn:hover figcaption { bottom: 0; }
+h1.date, h2.adress{
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width:750px){
     .hideOnMobile,.menu{
         display:none;
     }
@@ -276,14 +310,21 @@ a.button.buttonPrimary:hover{
         padding-top:25px;
         padding-bottom:25px;
     }
-    .gridWho{
-        display:block;
-    }
-    .gridWho .column{
-        max-width:100%;
-        overflow:hidden;
+    .mTextCenter{
+        text-align: center;
     }
     main.sectionWho{
         padding-top: 59px;
     }
+}
+@media screen and (max-width: 500px){
+    .gridResponsive{
+    display:block;
+}
+    .gridResponsive .column{
+        max-width:100%;
+        overflow:hidden;
+    }
+    .capIn figcaption { left: 25%; bottom: -30%;}
+
 }
