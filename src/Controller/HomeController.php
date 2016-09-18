@@ -35,13 +35,31 @@ class HomeController{
             ,"speaker_O"
             ,"speaker_P"
         );
+        $speakerRealName = array(
+            "Atmos Maciel"
+            ,"Evaldo Barbosa"
+            ,"Fabio Soares"
+            ,"Nanderson Castro"
+            ,"Ricardo Coelho"
+            ,"William Mano"
+            ,"speaker_G"
+            ,"speaker_H"
+            ,"speaker_I"
+            ,"speaker_J"
+            ,"speaker_L"
+            ,"speaker_M"
+            ,"speaker_N"
+            ,"speaker_O"
+            ,"speaker_P"
+        );
 
         return $this->app['twig']->render('home.twig',
             [
-                 'link_who'     => '/quem'
-                ,'link_when'    => '/quando'
-                ,'link_howmuch' => '/quanto'
-                ,'speakerName'  => $speakerName
+                 'link_who'         => '/quem'
+                ,'link_when'        => '/quando'
+                ,'link_howmuch'     => '/quanto'
+                ,'speakerName'      => $speakerName
+                ,'speakerRealName'  => $speakerRealName
             ]);
     }
 }
