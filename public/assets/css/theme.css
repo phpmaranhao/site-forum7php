@@ -329,6 +329,9 @@ h1.date, h2.adress{
 
     .capIn figcaption { left: 15%; bottom: -30%;}
 }
+@media screen and (min-width: 1366px) {
+    .capIn figcaption { left: 10%; bottom: -30%;}
+}
 @media screen and (min-width: 1440px){
     .capIn figcaption { left: 15%; bottom: -30%;}
 }
