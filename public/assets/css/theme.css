@@ -264,7 +264,7 @@ figure {
     display: block;
     position: relative;
     overflow: hidden;
-    margin: 0 20px 20px 0;
+    margin: 0 auto;
 }
 figcaption {
     position: absolute;
@@ -278,7 +278,7 @@ figcaption {
 figure:hover figcaption {
     opacity: 1;
 }
-.capIn figcaption { left: 0; bottom: -30%;}
+.capIn figcaption { left: 0%; bottom: -30%;}
 .capIn:hover figcaption { bottom: 0; }
 h1.date, h2.adress{
     font-size: 3em;
@@ -298,7 +298,7 @@ h1.date, h2.adress{
     }
     .navItem{
         width:20%;
-        font-size:48px;
+        font-size:42px;
         padding-top:10px;
         padding-bottom:0;
     }
@@ -319,12 +319,19 @@ h1.date, h2.adress{
 }
 @media screen and (max-width: 500px){
     .gridResponsive{
-    display:block;
-}
+        display:block;
+    }
+
     .gridResponsive .column{
         max-width:100%;
         overflow:hidden;
     }
-    .capIn figcaption { left: 25%; bottom: -30%;}
 
+    .capIn figcaption { left: 15%; bottom: -30%;}
+}
+@media screen and (min-width: 1440px){
+    .capIn figcaption { left: 15%; bottom: -30%;}
+}
+@media screen and (min-width: 1902px){
+    .capIn figcaption { left: 25%; bottom: -30%;}
 }
