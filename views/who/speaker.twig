@@ -1,4 +1,4 @@
-{% extends '/base/template.twig' %}
+{% extends '/base/templateSpeaker.twig' %}
 
 {% block content %}
     {% include '/includes/navbar.twig' %}
@@ -16,17 +16,9 @@
                 <div class="column">
                     <img src="/assets/img/speakers/{{ photo_speaker }}" class="imgResponsive imgCenter">
                     <p class="socialNetworkLinks textCenter">
-                        <a href="#"><span class="icon facebookIcon"></span></a>
-                        <a href="#"><span class="icon twitterIcon"></span></a>
-                        {#<a href="#"><span class="icon pinterestIcon"></span></a>#}
-                        {#<a href="#"><span class="icon googlePlusIcon"></span></a>#}
-                        {#<a href="#"><span class="icon tumblrIcon"></span></a>#}
-                        {#<a href="#"><span class="icon wordPressIcon"></span></a>#}
-                        <a href="#"><span class="icon instagramIcon"></span></a>
-                        {#<a href="#"><span class="icon dribbleIcon"></span></a>#}
-                        <a href="#"><span class="icon linkedInIcon"></span></a>
-                        {#<a href="#"><span class="icon youTubeIcon"></span></a>#}
-                        {#<a href="#"><span class="icon "></span></a>#}
+                        {% for key, social in socialNetWork %}
+                            <a href="{{ social }}" target="_blank"><span class="icon {{ key }}Icon"></span></a>
+                        {% endfor %}
                     </p>
                 </div>
             </div>
