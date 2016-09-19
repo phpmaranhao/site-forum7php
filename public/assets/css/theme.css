@@ -52,6 +52,7 @@ a:active{
 .column{
     width:100%;
     padding:5px 10px;
+    overflow-x: hidden;
 }
 .container{
     width:80%;
@@ -137,6 +138,18 @@ a:active{
 .howMuch .navItem:hover{
     background-color:#a2a43d;
 }
+.sponsorship{
+    background-color: #3C6E51;
+}
+.sponsorship .navItem:hover{
+    background-color: #30574B;
+}
+.partiner{
+    background: #303957;
+}
+.partiner .navItem:hover{
+    background-color: #3C556E;
+}
 .onWhat{
     background-color:#3e99a5;
 }
@@ -151,6 +164,12 @@ a:active{
 }
 .onHowMuch{
     background-color:#a2a43d;
+}
+.onSponsorship{
+    background-color:#30574B;
+}
+.onPartiner{
+    background-color: #3E3C6E;
 }
 .sectionHeader{
     color:#fff;
@@ -175,6 +194,12 @@ main.sectionWho{
 }
 .sectionHowMuch{
     background-color:#3c6e6d;
+}
+.sectionSponsorship{
+    background-color: #30574B;
+}
+.sectionPartiner{
+    background-color: #3E3C6E;
 }
 .icon{
     font-family:Icon,sans-serif;
@@ -324,7 +349,6 @@ h1.date, h2.adress{
 
     .gridResponsive .column{
         max-width:100%;
-        overflow:hidden;
     }
 
     .capIn figcaption { left: 15%; bottom: -30%;}
