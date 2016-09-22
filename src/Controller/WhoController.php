@@ -9,6 +9,23 @@ class WhoController{
      * @var Application
      */
     private $app;
+    private $speakerName = array(
+        "atmos-maciel"
+        ,"evaldo-barbosa"
+        ,"fabio-Soares"
+        ,"nanderson-castro"
+        ,"ricardo-coelho"
+        ,"william-mano"
+        ,"speaker_G"
+        ,"speaker_H"
+        ,"speaker_I"
+        ,"speaker_J"
+        ,"speaker_L"
+        ,"speaker_M"
+        ,"speaker_N"
+        ,"speaker_O"
+        ,"speaker_P"
+    );
 
     public function __construct($app){
         $this->app = $app;
@@ -25,6 +42,14 @@ class WhoController{
         $content['slideName']        = "Foguetes e a Nasa";
         $content['slideDescription'] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat.";
         $content['slideLink']        = "http://speakerdeck.com/atmos/slide";
+        $content['urlName']          = $this->speakerName[0];
+        $content['socialNetWork']    = array(
+                                        'facebook'  => "http://facebook.com/",
+                                        'twitter'   => "http://twitter.com/",
+                                        'instagram' => "http://instagram.com/",
+                                        'linkedIn'  => "http://linkedin.com/",
+                                        'github'    => "http://github.com"
+                                        );
 
         return $this->app['twig']->render('/who/speaker.twig', $content);
     }
@@ -40,6 +65,14 @@ class WhoController{
         $content['slideName']        = "Foguetes e a Nasa";
         $content['slideDescription'] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat.";
         $content['slideLink']        = "http://speakerdeck.com/evaldo/slide";
+        $content['urlName']          = $this->speakerName[1];
+        $content['socialNetWork']    = array(
+                                        'facebook'  => "http://facebook.com/",
+                                        'twitter'   => "http://twitter.com/",
+                                        'instagram' => "http://instagram.com/",
+                                        'linkedIn'  => "http://linkedin.com/",
+                                        'github'    => "http://github.com"
+                                        );
 
         return $this->app['twig']->render('/who/speaker.twig', $content);
     }
@@ -55,6 +88,15 @@ class WhoController{
         $content['slideName']        = "Foguetes e a Nasa";
         $content['slideDescription'] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat.";
         $content['slideLink']        = "https://speakerdeck.com/1fabiosoares";
+        $content['urlName']          = $this->speakerName[2];
+        $content['socialNetWork']    = array(
+                                        'facebook'  => "http://facebook.com/1FabioSoares",
+                                        'twitter'   => "http://twitter.com/1fabiosoares",
+                                        'instagram' => "http://instagram.com/1fabiosoares",
+                                        'linkedIn'  => "https://br.linkedin.com/in/fabio-soares-531205125",
+                                        'github'    => "http://github.com/1fabiosoares"
+                                        
+                                        );
 
         return $this->app['twig']->render('/who/speaker.twig', $content);
     }
@@ -71,6 +113,14 @@ class WhoController{
         $content['slideName']        = "JWT Com Symfony";
         $content['slideDescription'] = "Nessa palestra Nanderson Castro vai mostrar como configurar nossa API com o Framework Symfony, para a utilização de JWT com mecanismo de autenticação. Abordarei conceitos básico sobre o Framework, sobre JWT e a integração entre ambos.";
         $content['slideLink']        = "http://speakerdeck.com/nanderson/slide";
+        $content['urlName']          = $this->speakerName[3];
+        $content['socialNetWork']    = array(
+                                        'facebook'  => "http://facebook.com/",
+                                        'twitter'   => "http://twitter.com/",
+                                        'instagram' => "http://instagram.com/",
+                                        'linkedIn'  => "http://linkedin.com/",
+                                        'github'    => "http://github.com"
+                                        );
 
         return $this->app['twig']->render('/who/speaker.twig', $content);
     }
@@ -87,6 +137,14 @@ class WhoController{
         $content['slideName']        = "PHP & Templates SVG - Documentos instantâneos";
         $content['slideDescription'] = "Nesta palestra veremos como utilizar templates SVG para geração de documentos instantâneos em PHP, com suporte a imagens, texto variável, gráficos e múltiplas páginas. Diga adeus à biblioteca de geração de PDFs que sempre trouxe alegria e paz para o seu dia a dia #sqn.";
         $content['slideLink']        = "https://speakerdeck.com/ramcoelho";
+        $content['urlName']          = $this->speakerName[3];
+        $content['socialNetWork']    = array(
+                                        'facebook'  => "http://facebook.com/",
+                                        'twitter'   => "http://twitter.com/",
+                                        'instagram' => "http://instagram.com/",
+                                        'linkedIn'  => "http://linkedin.com/",
+                                        'github'    => "http://github.com"
+                                        );
 
         return $this->app['twig']->render('/who/speaker.twig', $content);
     }
@@ -102,6 +160,14 @@ class WhoController{
         $content['slideName']        = "Foguetes e a Nasa";
         $content['slideDescription'] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat.";
         $content['slideLink']        = "https://speakerdeck.com/mano";
+        $content['urlName']          = $this->speakerName[4];
+        $content['socialNetWork']    = array(
+                                        'facebook'  => "http://facebook.com/",
+                                        'twitter'   => "http://twitter.com/",
+                                        'instagram' => "http://instagram.com/",
+                                        'linkedIn'  => "http://linkedin.com/",
+                                        'github'    => "http://github.com"
+                                        );
 
         return $this->app['twig']->render('/who/speaker.twig', $content);
     }

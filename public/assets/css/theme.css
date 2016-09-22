@@ -52,6 +52,7 @@ a:active{
 .column{
     width:100%;
     padding:5px 10px;
+    overflow-x: hidden;
 }
 .container{
     width:80%;
@@ -137,6 +138,18 @@ a:active{
 .howMuch .navItem:hover{
     background-color:#a2a43d;
 }
+.sponsorship{
+    background-color: #3C6E51;
+}
+.sponsorship .navItem:hover{
+    background-color: #30574B;
+}
+.partiner{
+    background: #303957;
+}
+.partiner .navItem:hover{
+    background-color: #3C556E;
+}
 .onWhat{
     background-color:#3e99a5;
 }
@@ -151,6 +164,12 @@ a:active{
 }
 .onHowMuch{
     background-color:#a2a43d;
+}
+.onSponsorship{
+    background-color:#30574B;
+}
+.onPartiner{
+    background-color: #3E3C6E;
 }
 .sectionHeader{
     color:#fff;
@@ -175,6 +194,12 @@ main.sectionWho{
 }
 .sectionHowMuch{
     background-color:#3c6e6d;
+}
+.sectionSponsorship{
+    background-color: #30574B;
+}
+.sectionPartiner{
+    background-color: #3E3C6E;
 }
 .icon{
     font-family:Icon,sans-serif;
@@ -264,7 +289,7 @@ figure {
     display: block;
     position: relative;
     overflow: hidden;
-    margin: 0 20px 20px 0;
+    margin: 0 auto;
 }
 figcaption {
     position: absolute;
@@ -278,7 +303,7 @@ figcaption {
 figure:hover figcaption {
     opacity: 1;
 }
-.capIn figcaption { left: 0; bottom: -30%;}
+.capIn figcaption { left: 0%; bottom: -30%;}
 .capIn:hover figcaption { bottom: 0; }
 h1.date, h2.adress{
     font-size: 3em;
@@ -298,7 +323,7 @@ h1.date, h2.adress{
     }
     .navItem{
         width:20%;
-        font-size:48px;
+        font-size:42px;
         padding-top:10px;
         padding-bottom:0;
     }
@@ -319,12 +344,21 @@ h1.date, h2.adress{
 }
 @media screen and (max-width: 500px){
     .gridResponsive{
-    display:block;
-}
+        display:block;
+    }
+
     .gridResponsive .column{
         max-width:100%;
-        overflow:hidden;
     }
-    .capIn figcaption { left: 25%; bottom: -30%;}
 
+    .capIn figcaption { left: 15%; bottom: -30%;}
+}
+@media screen and (min-width: 1366px) {
+    .capIn figcaption { left: 10%; bottom: -30%;}
+}
+@media screen and (min-width: 1440px){
+    .capIn figcaption { left: 15%; bottom: -30%;}
+}
+@media screen and (min-width: 1902px){
+    .capIn figcaption { left: 25%; bottom: -30%;}
 }
