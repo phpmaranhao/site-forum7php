@@ -82,7 +82,7 @@ class WhoController{
         $content['name']             = "Fabio Soares";
         $content['photo']            = "fabio-soares.jpg";
         $content['photo_speaker']    = "fabio-soares.jpg";
-        $content['description']      = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat. Praesent id enim justo. Ut lacinia rutrum ex, a aliquam enim dignissim at. Curabitur ut orci sit amet arcu cursus accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sit amet tortor justo. Duis feugiat tristique arcu, vel semper lectus fermentum facilisis. Sed ac magna a ipsum ornare pulvinar.";
+        $content['description']      = "Fabio Soares é estudante de ciência da computação pela Faculdade Pitágoras. É membro ativo das comunidades PHP Maranhão e Google Developer Group São Luís. Aposta em colaborar em projetos de educação para todas as idades. Profissionalmente atua como programador no Grupo Mateus, integrado com a equipe de usabilidade e interação ao usuário.";
         $content['type']             = "Palestra";
         $content['slidePhoto']       = "rocket-night.jpg";
         $content['slideName']        = "Foguetes e a Nasa";
