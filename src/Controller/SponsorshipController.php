@@ -1,10 +1,9 @@
 <?php
-
 namespace ForumPHPMA\Controller;
 
 use Silex\Application;
 
-class HowMuchController
+class SponsorshipController
 {
     /**
      * @var Application
@@ -16,8 +15,4 @@ class HowMuchController
         $this->app = $app;
     }
 
-    public function getInvitation()
-    {
-        return "redirect for payment channel";
-    }
 }
