@@ -15,9 +15,4 @@ class HowMuchController
     {
         $this->app = $app;
     }
-
-    public function getInvitation()
-    {
-        return "redirect for payment channel";
-    }
 }
