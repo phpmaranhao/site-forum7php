@@ -9,6 +9,7 @@ class WhoController{
      * @var Application
      */
     private $app;
+
     private $speakerName = array(
         "atmos-maciel"
         ,"evaldo-barbosa"
@@ -34,8 +35,8 @@ class WhoController{
     public function speaker_A(){
         $content                     = array();
         $content['name']             = "Atmos Maciel";
-        $content['photo']            =  false;
-        $content['photo_speaker']    = "nanderson-castro.jpg";
+        $content['photo']            = false;
+        $content['photo_speaker']    = false;
         $content['description']      = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat. Praesent id enim justo. Ut lacinia rutrum ex, a aliquam enim dignissim at. Curabitur ut orci sit amet arcu cursus accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sit amet tortor justo. Duis feugiat tristique arcu, vel semper lectus fermentum facilisis. Sed ac magna a ipsum ornare pulvinar.";
         $content['type']             = "Palestra";
         $content['slidePhoto']       = "rocket-night.jpg";
@@ -57,8 +58,8 @@ class WhoController{
     public function speaker_B(){
         $content                     = array();
         $content['name']             = "Evaldo Barbosa";
-        $content['photo']            =  false;
-        $content['photo_speaker']    = "nanderson-castro.jpg";
+        $content['photo']            = false;
+        $content['photo_speaker']    = false;
         $content['description']      = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat. Praesent id enim justo. Ut lacinia rutrum ex, a aliquam enim dignissim at. Curabitur ut orci sit amet arcu cursus accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sit amet tortor justo. Duis feugiat tristique arcu, vel semper lectus fermentum facilisis. Sed ac magna a ipsum ornare pulvinar.";
         $content['type']             = "Palestra";
         $content['slidePhoto']       = "rocket-night.jpg";
@@ -104,7 +105,7 @@ class WhoController{
     public function speaker_D(){
         $content                     = array();
         $content['name']             = "Nanderson Castro";
-        $content['photo']            =  false;
+        $content['photo']            = false;
         $content['photo_speaker']    = "nanderson-castro.jpg";
         $content['photo']            = "/speakers/nanderson-castro.jpg";
         $content['description']      = "Developer por amor e curioso por natureza! Gerencia comunidades e meetups em sua região, desde PHP UG a Ionic Meetup passando pelo Google Developers Group. Zend Certified PHP Engineer, para a versão 5.5 do PHP. Acredita que promover e participar de eventos, meetups e fortalecer o network, o faz um profissional melhor e mais iterado no mercado onde atua! Profissionalmente atuo na Secretaria de Transparência e Controle do Maranhão e me aventuro, com cuidado, no mundo do empreededorismo na Code Experts Apps, empresa focada na criação de Aplicações Web e Aplicativos Móveis.";
@@ -152,8 +153,8 @@ class WhoController{
     public function speaker_F(){
         $content                     = array();
         $content['name']             = "William Mano";
-        $content['photo']            = "rocket-night.jpg";
-        $content['photo_speaker']    = "nanderson-castro.jpg";
+        $content['photo']            = false;
+        $content['photo_speaker']    = false;
         $content['description']      = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat. Praesent id enim justo. Ut lacinia rutrum ex, a aliquam enim dignissim at. Curabitur ut orci sit amet arcu cursus accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sit amet tortor justo. Duis feugiat tristique arcu, vel semper lectus fermentum facilisis. Sed ac magna a ipsum ornare pulvinar.";
         $content['type']             = "Palestra";
         $content['slidePhoto']       = "rocket-night.jpg";

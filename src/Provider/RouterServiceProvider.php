@@ -41,6 +41,5 @@ class RouterServiceProvider implements ServiceProviderInterface{
          */
         $app->get('/quanto/comprar-entrada/', "howmuch:getinvitation");
 
-
     }
 }

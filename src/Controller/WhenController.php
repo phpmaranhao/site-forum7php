@@ -18,6 +18,11 @@ class WhenController
 
     public function eventSchedule()
     {
-        return fopen("../../public/assets/docs/programacao.md","r");
+        return $this->app['twig']->render('/when/when.twig',
+            [
+                 'link_when' => 'quando'
+                ,'nome' =>'funlano'
+            ]
+        );
     }
 }
