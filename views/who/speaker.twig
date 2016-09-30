@@ -14,12 +14,16 @@
                     <p>{{ description }}</p>
                 </div>
                 <div class="column">
-                    <img src="/assets/img/speakers/{{ photo_speaker }}" class="imgResponsive imgCenter">
-                    <p class="socialNetworkLinks textCenter">
-                        {% for key, social in socialNetWork %}
-                            <a href="{{ social }}" target="_blank"><span class="icon {{ key }}Icon"></span></a>
-                        {% endfor %}
-                    </p>
+                    {% if photo_speaker == false %}
+                        <img src="/assets/img/img.png" class="imgResponsive imgCenter">
+                    {% else %}
+                        <img src="/assets/img/speakers/{{ photo_speaker }}" class="imgResponsive imgCenter">
+                    {% endif %}
+                        <p class="socialNetworkLinks textCenter">
+                            {% for key, social in socialNetWork %}
+                                <a href="{{ social }}" target="_blank"><span class="icon {{ key }}Icon"></span></a>
+                            {% endfor %}
+                        </p>
                 </div>
             </div>
         </article>

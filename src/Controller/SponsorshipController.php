@@ -1,10 +1,9 @@
 <?php
-
 namespace ForumPHPMA\Controller;
 
 use Silex\Application;
 
-class HowMuchController
+class SponsorshipController
 {
     /**
      * @var Application
@@ -15,4 +14,5 @@ class HowMuchController
     {
         $this->app = $app;
     }
+
 }
