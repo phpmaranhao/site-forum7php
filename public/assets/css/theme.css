@@ -62,6 +62,7 @@ a:active{
 }
 .textJustify{
     text-align:justify;
+    line-height: 30px;
 }
 .imgResponsive{
     max-width:100%;
