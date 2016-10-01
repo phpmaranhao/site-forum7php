@@ -114,6 +114,15 @@ a:active{
 .what .navItem:hover{
     background-color:#3e99a5;
 }
+#what .content {
+    padding: 20px 0;
+}
+#what .content p {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.1em;
+    line-height: 35px;
+}
 .who{
     background-color:#50d7c1;
 }
@@ -310,7 +319,13 @@ h1.date, h2.adress{
     margin: 0;
     padding: 0;
 }
-
+.btn-lg {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.btn-lg::before{
+    content: "\E059";
+}
 @media screen and (max-width:750px){
     .hideOnMobile,.menu{
         display:none;
