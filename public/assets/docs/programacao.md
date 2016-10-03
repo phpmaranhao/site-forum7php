@@ -10,7 +10,7 @@ Programação do Evento
 
 10h00 - **Tema da Palestra** - *Evaldo Barbosa*
 
-11h00 - **Tema da Palestra** - *Fábio Soares*
+11h00 - **Tema da Palestra** - *Fabio Soares*
 
 12h00 - ***Almoço***
 
