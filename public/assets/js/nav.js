@@ -1,6 +1,3 @@
-/**
- * Created by Fabio Soares on 26/09/2016.
- */
 function currentYPosition() {
     // Firefox, Chrome, Opera, Safari
     if (self.pageYOffset) return self.pageYOffset;

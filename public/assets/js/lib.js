@@ -1,6 +1,3 @@
-/**
- * Created by Fabio Soares on 16/09/2016.
- */
 function addClass(element, stringClass){
     let classes = element.className;
 

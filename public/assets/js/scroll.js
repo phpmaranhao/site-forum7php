@@ -1,7 +1,3 @@
-/**
- * Created by Fabio Soares on 27/08/2016.
- */
-
 window.addEventListener('load', function(){
     var navBar = document.getElementById('navBar');
     var elements = document.getElementsByClassName('navItem');

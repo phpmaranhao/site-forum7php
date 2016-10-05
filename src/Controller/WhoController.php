@@ -37,7 +37,7 @@ class WhoController{
         $content['name']             = "Atmos Maciel";
         $content['photo']            = false;
         $content['photo_speaker']    = false;
-        $content['description']      = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat. Praesent id enim justo. Ut lacinia rutrum ex, a aliquam enim dignissim at. Curabitur ut orci sit amet arcu cursus accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sit amet tortor justo. Duis feugiat tristique arcu, vel semper lectus fermentum facilisis. Sed ac magna a ipsum ornare pulvinar.";
+        $content['description']      = "Desenvolvedor de sistemas (Atualmente, Sistemas Web e Mobile Android). Gosta de Inovação e seus ambientes bem como empreendedorismo. Acima de tudo, defensor e entusiasta do Software Livre, do Linux e cultura Open-Source. Gosta de aprender coisas novas e procura sempre ser multidisciplinar e interdisciplinar nas áreas do conhecimento. Estudante de Ciência da Computação, tenho objetivo de me tornar referência na minha área de atuação e promover a ciência e tecnologia. Participante ativo das comunidades PHP Maranhão, Agile MA e GDG São Luís e das demais comunidades de inovação e tecnologia do estado.";
         $content['type']             = "Palestra";
         $content['slidePhoto']       = "rocket-night.jpg";
         $content['slideName']        = "Foguetes e a Nasa";

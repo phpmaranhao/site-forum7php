@@ -103,105 +103,6 @@
                         </figure>
                     </a>
                 </div>
-
-            </div>
-            <br>
-            <div class="grid gridResponsive">
-                {#<div class="column">#}
-                    {#<a href="{{ link_who }}/{{ speakerName[6] }}/">#}
-                        {#<figure class="capIn">#}
-                            {#<img src="assets/img/img.png" class="imgResponsive imgCenter">#}
-                            {#<figcaption>#}
-                                {#{{ speakerRealName[6] }}#}
-                            {#</figcaption>#}
-                        {#</figure>#}
-                    {#</a>#}
-                {#</div>#}
-                {#<div class="column">#}
-                    {#<a href="{{ link_who }}/{{ speakerName[7] }}/">#}
-                        {#<figure class="capIn">#}
-                            {#<img src="assets/img/img.png" class="imgResponsive imgCenter">#}
-                            {#<figcaption>#}
-                                {#{{ speakerRealName[7] }}#}
-                            {#</figcaption>#}
-                        {#</figure>#}
-                    {#</a>#}
-                {#</div>#}
-                {#<div class="column">#}
-                    {#<a href="{{ link_who }}/{{ speakerName[8] }}/">#}
-                        {#<figure class="capIn">#}
-                            {#<img src="assets/img/img.png" class="imgResponsive imgCenter">#}
-                            {#<figcaption>#}
-                                {#{{ speakerRealName[8] }}#}
-                            {#</figcaption>#}
-                        {#</figure>#}
-                    {#</a>#}
-                {#</div>#}
-
-            {#</div>#}
-            {#<div class="grid gridResponsive">#}
-                {#<div class="column">#}
-                    {#<a href="{{ link_who }}/{{ speakerName[9] }}/">#}
-                        {#<figure class="capIn">#}
-                            {#<img src="assets/img/img.png" class="imgResponsive imgCenter">#}
-                            {#<figcaption>#}
-                                {#{{ speakerRealName[9] }}#}
-                            {#</figcaption>#}
-                        {#</figure>#}
-                    {#</a>#}
-                {#</div>#}
-                {#<div class="column">#}
-                    {#<a href="{{ link_who }}/{{ speakerName[10] }}/">#}
-                        {#<figure class="capIn">#}
-                            {#<img src="assets/img/img.png" class="imgResponsive imgCenter">#}
-                            {#<figcaption>#}
-                                {#{{ speakerRealName[10] }}#}
-                            {#</figcaption>#}
-                        {#</figure>#}
-                    {#</a>#}
-                {#</div>#}
-                {#<div class="column">#}
-                    {#<a href="{{ link_who }}/{{ speakerName[11] }}/">#}
-                        {#<figure class="capIn">#}
-                            {#<img src="assets/img/img.png" class="imgResponsive imgCenter">#}
-                            {#<figcaption>#}
-                                {#{{ speakerRealName[11] }}#}
-                            {#</figcaption>#}
-                        {#</figure>#}
-                    {#</a>#}
-                {#</div>#}
-            {#</div>#}
-            {#<div class="grid gridResponsive">#}
-                {#<div class="column">#}
-                    {#<a href="{{ link_who }}/{{ speakerName[12] }}/">#}
-                        {#<figure class="capIn">#}
-                            {#<img src="assets/img/img.png" class="imgResponsive imgCenter">#}
-                            {#<figcaption>#}
-                                {#{{ speakerRealName[12] }}#}
-                            {#</figcaption>#}
-                        {#</figure>#}
-                    {#</a>#}
-                {#</div>#}
-                {#<div class="column">#}
-                    {#<a href="{{ link_who }}/{{ speakerName[13] }}/">#}
-                        {#<figure class="capIn">#}
-                            {#<img src="assets/img/img.png" class="imgResponsive imgCenter">#}
-                            {#<figcaption>#}
-                                {#{{ speakerRealName[13] }}#}
-                            {#</figcaption>#}
-                        {#</figure>#}
-                    {#</a>#}
-                {#</div>#}
-                {#<div class="column">#}
-                    {#<a href="{{ link_who }}/{{ speakerName[14] }}/">#}
-                        {#<figure class="capIn">#}
-                            {#<img src="assets/img/img.png" class="imgResponsive imgCenter">#}
-                            {#<figcaption>#}
-                                {#{{ speakerRealName[14] }}#}
-                            {#</figcaption>#}
-                        {#</figure>#}
-                    {#</a>#}
-                {#</div>#}
             </div>
             <br>
         </article>
@@ -252,11 +153,14 @@
                 </div>
             </div>
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.8687477167264!2d-44.24267818574959!3d-2.549599439026684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7f69030d0146f8b%3A0x874f6faa8c29b0a7!2sFaculdade+Santa+Teresinha!5e0!3m2!1sen!2sbr!4v1473021340378" width="1750" height="500" frameborder="0" style="border:0" allowfullscreen class="imgResponsive blockCenter"></iframe>
+            {# div responsável por exibir o mapa#}
+            <div id="map"></div>
 
-            <div class="textCenter textWhite">
-                <h1>OU ABRA AS CORDENADAS NO APP</h1>
-            </div>
+            {#<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.8687477167264!2d-44.24267818574959!3d-2.549599439026684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7f69030d0146f8b%3A0x874f6faa8c29b0a7!2sFaculdade+Santa+Teresinha!5e0!3m2!1sen!2sbr!4v1473021340378" width="1750" height="500" frameborder="0" style="border:0" allowfullscreen class="imgResponsive blockCenter"></iframe>#}
+
+            {#<div class="textCenter textWhite">#}
+                {#<h1>OU ABRA AS CORDENADAS NO APP</h1>#}
+            {#</div>#}
         </article>
         <br>
     </section>
@@ -273,14 +177,10 @@
                     <h1><small>PRIMEIRO LOTE</small> <br> 30 <small>REAIS</small></h1>
                     <p>23/09 até 08/10</p>
                 </div>
-            {#</div>#}
-            {#<div class="grid">#}
                 <div class="column textCenter textWhite">
                     <h1><small>SEGUNDO LOTE</small> <br> 50 <small>REAIS</small></h1>
                     <p>09/10 até 24/10</p>
                 </div>
-            {#</div>#}
-            {#<div class="grid">#}
                 <div class="column textCenter textWhite">
                     <h1><small>TERCEIRO LOTE</small> <br> 70 <small>REAIS</small></h1>
                     <p>25/10 até 09/11</p>
@@ -313,9 +213,6 @@
                         <img src="/assets/img/sponsorship/heptum.png" class="imgResponsive">
                     </a>
                 </div>
-                {#<div class="column textCenter textWhite">#}
-                    {#<img src="/assets/img/img.png" class="imgResponsive">#}
-                {#</div>#}
             </div>
         </article>
     </section>
@@ -333,12 +230,11 @@
                         <img src="/assets/img/sponsorship/cest.png" class="imgResponsive">
                     </a>
                 </div>
-                {#<div class="column textCenter textWhite">#}
-                    {#<img src="/assets/img/img.png" class="imgResponsive">#}
-                {#</div>#}
-                {#<div class="column textCenter textWhite">#}
-                    {#<img src="/assets/img/img.png" class="imgResponsive">#}
-                {#</div>#}
+                <div class="column textCenter textWhite">
+                    <a href="http://www.spacehub.com.br" target="_blank">
+                        <img src="/assets/img/sponsorship/logohub.png" class="imgResponsive">
+                    </a>
+                </div>
             </div>
         </article>
     </section>
@@ -347,4 +243,5 @@
 <script type="text/javascript" src="/assets/js/lib.js"></script>
 <script type="text/javascript" src="/assets/js/scroll.js"></script>
 <script type="text/javascript" src="/assets/js/nav.js"></script>
+<script type="text/javascript" src="/assets/js/map.js"></script>
 {% endblock %}

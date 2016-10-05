@@ -109,6 +109,11 @@ a:active{
     margin:100px auto;
     color:#50a590;
 }
+#map{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #ccc;
+}
 .what{
     background-color:#51c8d8;
 }
