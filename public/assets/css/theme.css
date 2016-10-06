@@ -262,6 +262,8 @@ a.button{
     display: inline-block;
     padding: 10px 15px 10px 15px;
     border-radius: 4px;
+    transition-property: background-color;
+    transition-duration: .3s;
 }
 a.button.buttonPrimary{
     background-color: #51c8d8;
