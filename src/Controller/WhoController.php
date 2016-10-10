@@ -16,7 +16,7 @@ class WhoController{
         ,"fabio-Soares"
         ,"nanderson-castro"
         ,"ricardo-coelho"
-        ,"william-mano"
+        ,"willian-mano"
         ,"speaker_G"
         ,"speaker_H"
         ,"speaker_I"
@@ -152,22 +152,22 @@ class WhoController{
 
     public function speaker_F(){
         $content                     = array();
-        $content['name']             = "William Mano";
+        $content['name']             = "Willian Mano";
         $content['photo']            = false;
-        $content['photo_speaker']    = false;
-        $content['description']      = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat. Praesent id enim justo. Ut lacinia rutrum ex, a aliquam enim dignissim at. Curabitur ut orci sit amet arcu cursus accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sit amet tortor justo. Duis feugiat tristique arcu, vel semper lectus fermentum facilisis. Sed ac magna a ipsum ornare pulvinar.";
+        $content['photo_speaker']    = "willian-mano.jpg";
+        $content['description']      = "Formado em análise e desenvolvimento de sistemas e Graduando em engenharia da computação pela UEMA, Willian trabalha atualmente como supervisor de desenvolvimento da UemaNet/UEMA. Desde 2007 atua no mercado desenvolvimento soluções de software, com foco principal em soluções WEB. Apaixonado por php, Willian possui certificação Zend PHP Certified Engineer e também é Certified Scrum Master, além de tualmente exercer a função de  vice-presidente do grupo PHP Maranhão. Suas principais áreas de interesse são: Webservices, Gameficação, Ambientes virtuais de aprendizagem e interoperabilidade de sistemas.";
         $content['type']             = "Palestra";
-        $content['slidePhoto']       = "rocket-night.jpg";
-        $content['slideName']        = "Foguetes e a Nasa";
-        $content['slideDescription'] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat.";
-        $content['slideLink']        = "https://speakerdeck.com/mano";
+        $content['slidePhoto']       = "slide-willian-mano.png";
+        $content['slideName']        = "Fazer software livre é fácil, difícil é manter.";
+        $content['slideDescription'] = "No campo das idéias sempre surgem oportunidades para a criação de algo maravilho, ainda mais se for open source. Entretanto, ao contrário do que se imagina, a parte mais difícil é a manunteção da ferramenta criada. Bugs que podem aparecer, sugestões da comunidade e melhorias próprias são apenas algumas das atividades que você deve aprender a gerenciar. Nesta palestra compartilharei um pouco da minha experiência no desenvolvimento de extenssões open source e como utilizar tecnologias para tornar sua vida de desenvolvedor mais tranquila. ";
+        $content['slideLink']        = "https://speakerdeck.com/willianmano";
         $content['urlName']          = $this->speakerName[4];
         $content['socialNetWork']    = array(
-                                        'facebook'  => "http://facebook.com/",
-                                        'twitter'   => "http://twitter.com/",
-                                        'instagram' => "http://instagram.com/",
-                                        'linkedIn'  => "http://linkedin.com/",
-                                        'github'    => "http://github.com"
+                                        'facebook'  => "http://facebook.com/willianmano",
+                                        'twitter'   => "http://twitter.com/willian_dev",
+                                        'instagram' => "http://instagram.com/willian_mano",
+                                        'linkedIn'  => "https://br.linkedin.com/in/willianmano",
+                                        'github'    => "http://github.com/willianmano"
                                         );
 
         return $this->app['twig']->render('/who/speaker.twig', $content);
