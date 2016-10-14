@@ -59,7 +59,7 @@ class WhoController{
         $content                     = array();
         $content['name']             = "Evaldo Barbosa";
         $content['photo']            = false;
-        $content['photo_speaker']    = false;
+        $content['photo_speaker']    = "evaldo-barbosa.jpg";
         $content['description']      = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat. Praesent id enim justo. Ut lacinia rutrum ex, a aliquam enim dignissim at. Curabitur ut orci sit amet arcu cursus accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sit amet tortor justo. Duis feugiat tristique arcu, vel semper lectus fermentum facilisis. Sed ac magna a ipsum ornare pulvinar.";
         $content['type']             = "Palestra";
         $content['slidePhoto']       = "rocket-night.jpg";
