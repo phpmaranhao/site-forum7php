@@ -42,9 +42,10 @@ class ApiController
             ,1 => [
             	'name' => "Evaldo Barbosa",
             	'slug' => "evaldo-barbosa",
-            	'talk' => "A definir",
-            	'resume' => "A definir",
-            	'bio'    => "Não disponibilizou"
+            	'talk' => "Por que é tão difícil um programador empreender?",
+            	'resume' => "Nessa palestra veremos alguns aspectos interessantes desse tema como zona de conforto, perfil empreendedor, competências e falta de vergonha na cara.",
+            	'bio'    => "Analista de sistemas, programador, palestrante e um eterno fuçador de código e problemas. Tem paixão por café e código fonte, por PHP, métodos ágeis e empreendedorismo.
+Scrum Master Certificado pela Scrum Alliance, embaixador do PHP-Maranhão, co-fundador do Agile-MA e membro do GDG São Luís."
             ]
             ,2 => [
             	'name' => "Fabio Soares",

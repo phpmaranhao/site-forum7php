@@ -60,11 +60,12 @@ class WhoController{
         $content['name']             = "Evaldo Barbosa";
         $content['photo']            = false;
         $content['photo_speaker']    = "evaldo-barbosa.jpg";
-        $content['description']      = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat. Praesent id enim justo. Ut lacinia rutrum ex, a aliquam enim dignissim at. Curabitur ut orci sit amet arcu cursus accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sit amet tortor justo. Duis feugiat tristique arcu, vel semper lectus fermentum facilisis. Sed ac magna a ipsum ornare pulvinar.";
+        $content['description']      = "Analista de sistemas, programador, palestrante e um eterno fuçador de código e problemas. Tem paixão por café e código fonte, por PHP, métodos ágeis e empreendedorismo.
+Scrum Master Certificado pela Scrum Alliance, embaixador do PHP-Maranhão, co-fundador do Agile-MA e membro do GDG São Luís.";
         $content['type']             = "Palestra";
         $content['slidePhoto']       = "rocket-night.jpg";
-        $content['slideName']        = "Foguetes e a Nasa";
-        $content['slideDescription'] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat.";
+        $content['slideName']        = "Por que é tão difícil um programador empreender?";
+        $content['slideDescription'] = "Nessa palestra veremos alguns aspectos interessantes desse tema como zona de conforto, perfil empreendedor, competências e falta de vergonha na cara.";
         $content['slideLink']        = "http://speakerdeck.com/evaldo/slide";
         $content['urlName']          = $this->speakerName[1];
         $content['socialNetWork']    = array(
