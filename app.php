@@ -12,5 +12,7 @@ $app->register(new Silex\Provider\TwigServiceProvider(), ['twig.path' => 'views/
 $app->register(new Silex\Provider\ServiceControllerServiceProvider());
 $app->register(new ForumPHPMA\Provider\RouterServiceProvider());
 $app->register(new ForumPHPMA\Provider\ControllerServiceProvider());
+$app->register(new ForumPHPMA\Provider\ApiRouterServiceProvider());
+$app->register(new ForumPHPMA\Provider\ApiControllerServiceProvider());
 
 return $app;
