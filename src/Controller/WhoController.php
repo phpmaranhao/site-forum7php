@@ -40,8 +40,8 @@ class WhoController{
         $content['description']      = "Desenvolvedor de sistemas (Atualmente, Sistemas Web e Mobile Android). Gosta de Inovação e seus ambientes bem como empreendedorismo. Acima de tudo, defensor e entusiasta do Software Livre, do Linux e cultura Open-Source. Gosta de aprender coisas novas e procura sempre ser multidisciplinar e interdisciplinar nas áreas do conhecimento. Estudante de Ciência da Computação, tenho objetivo de me tornar referência na minha área de atuação e promover a ciência e tecnologia. Presidente da comunidade PHP Maranhão e participante ativo das comunidades Agile MA e GDG São Luís e das demais comunidades de inovação e tecnologia do estado.";
         $content['type']             = "Palestra";
         $content['slidePhoto']       = "rocket-night.jpg";
-        $content['slideName']        = "Foguetes e a Nasa";
-        $content['slideDescription'] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat.";
+        $content['slideName']        = "A definir";
+        $content['slideDescription'] = "Ainda não especificado...";
         $content['slideLink']        = "http://speakerdeck.com/atmos/slide";
         $content['urlName']          = $this->speakerName[0];
         $content['socialNetWork']    = array(
@@ -87,8 +87,8 @@ Scrum Master Certificado pela Scrum Alliance, embaixador do PHP-Maranhão, co-fu
         $content['description']      = "Fabio Soares é Scrum Master, estudante de ciência da computação pela Faculdade Pitágoras. É membro ativo das comunidades PHP Maranhão e Google Developer Group São Luís. Aposta em colaborar em projetos de educação para todas as idades. Profissionalmente atua como programador no Grupo Mateus, integrado com a equipe de usabilidade e interação ao usuário.";
         $content['type']             = "Palestra";
         $content['slidePhoto']       = "rocket-night.jpg";
-        $content['slideName']        = "Foguetes e a Nasa";
-        $content['slideDescription'] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis quam nec dui faucibus, et dapibus erat volutpat.";
+        $content['slideName']        = "A Definir";
+        $content['slideDescription'] = "Ainda não especificado...";
         $content['slideLink']        = "https://speakerdeck.com/1fabiosoares";
         $content['urlName']          = $this->speakerName[2];
         $content['socialNetWork']    = array(
