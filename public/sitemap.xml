@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <url>
+        <loc>http://7php.phpmaranhao.com.br/</loc>
+        <priority>1.00</priority>
+    </url>
+
+    <url>
+        <loc>http://7php.phpmaranhao.com.br/quando/programacao/</loc>
+        <priority>0.90</priority>
+    </url>
+
+    <url>
+        <loc>http://7php.phpmaranhao.com.br/#oque</loc>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>http://7php.phpmaranhao.com.br/#quem</loc>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>http://7php.phpmaranhao.com.br/#quando</loc>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>http://7php.phpmaranhao.com.br/#onde</loc>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>http://7php.phpmaranhao.com.br/#quanto</loc>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>http://7php.phpmaranhao.com.br/#patrocinadores</loc>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>http://7php.phpmaranhao.com.br/#parceiros</loc>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>http://7php.phpmaranhao.com.br/quem/atmos-maciel/</loc>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>http://7php.phpmaranhao.com.br/quem/evaldo-barbosa/</loc>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>http://7php.phpmaranhao.com.br/quem/fabio-soares/</loc>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>http://7php.phpmaranhao.com.br/quem/nanderson-castro/</loc>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>http://7php.phpmaranhao.com.br/quem/ricardo-coelho/</loc>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>http://7php.phpmaranhao.com.br/quem/willian-mano/</loc>
+        <priority>0.70</priority>
+    </url>
+</urlset>
