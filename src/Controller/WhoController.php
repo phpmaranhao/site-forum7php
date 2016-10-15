@@ -17,15 +17,6 @@ class WhoController{
         ,"nanderson-castro"
         ,"ricardo-coelho"
         ,"willian-mano"
-        ,"speaker_G"
-        ,"speaker_H"
-        ,"speaker_I"
-        ,"speaker_J"
-        ,"speaker_L"
-        ,"speaker_M"
-        ,"speaker_N"
-        ,"speaker_O"
-        ,"speaker_P"
     );
 
     public function __construct($app){
@@ -45,11 +36,11 @@ class WhoController{
         $content['slideLink']        = "http://speakerdeck.com/atmos/slide";
         $content['urlName']          = $this->speakerName[0];
         $content['socialNetWork']    = array(
-                                        'facebook'  => "http://facebook.com/",
+                                        'facebook'  => "https://www.facebook.com/atmosmps",
                                         'twitter'   => "http://twitter.com/",
-                                        'instagram' => "http://instagram.com/",
-                                        'linkedIn'  => "http://linkedin.com/",
-                                        'github'    => "http://github.com"
+                                        'instagram' => "https://www.instagram.com/atm0smacie1",
+                                        'linkedIn'  => "https://www.linkedin.com/in/atmosmaciel",
+                                        'github'    => "https://github.com/atmosmaciel"
                                         );
 
         return $this->app['twig']->render('/who/speaker.twig', $content);
@@ -60,8 +51,7 @@ class WhoController{
         $content['name']             = "Evaldo Barbosa";
         $content['photo']            = false;
         $content['photo_speaker']    = "evaldo-barbosa.jpg";
-        $content['description']      = "Analista de sistemas, programador, palestrante e um eterno fuçador de código e problemas. Tem paixão por café e código fonte, por PHP, métodos ágeis e empreendedorismo.
-Scrum Master Certificado pela Scrum Alliance, embaixador do PHP-Maranhão, co-fundador do Agile-MA e membro do GDG São Luís.";
+        $content['description']      = "Analista de sistemas, programador, palestrante e um eterno fuçador de código e problemas. Tem paixão por café e código fonte, por PHP, métodos ágeis e empreendedorismo. Scrum Master Certificado pela Scrum Alliance, embaixador do PHP-Maranhão, co-fundador do Agile-MA e membro do GDG São Luís.";
         $content['type']             = "Palestra";
         $content['slidePhoto']       = "rocket-night.jpg";
         $content['slideName']        = "Por que é tão difícil um programador empreender?";
@@ -172,41 +162,5 @@ Scrum Master Certificado pela Scrum Alliance, embaixador do PHP-Maranhão, co-fu
                                         );
 
         return $this->app['twig']->render('/who/speaker.twig', $content);
-    }
-
-    public function speaker_G(){
-        return "Sem View Para este Palestrante ainda";
-    }
-
-    public function speaker_H(){
-        return "Sem View Para este Palestrante ainda";
-    }
-
-    public function speaker_I(){
-        return "Sem View Para este Palestrante ainda";
-    }
-
-    public function speaker_J(){
-        return "Sem View Para este Palestrante ainda";
-    }
-
-    public function speaker_L(){
-        return "Sem View Para este Palestrante ainda";
-    }
-
-    public function speaker_M(){
-        return "Sem View Para este Palestrante ainda";
-    }
-
-    public function speaker_N(){
-        return "Sem View Para este Palestrante ainda";
-    }
-
-    public function speaker_O(){
-        return "Sem View Para este Palestrante ainda";
-    }
-
-    public function speaker_P(){
-        return "Sem View Para este Palestrante ainda";
     }
 }

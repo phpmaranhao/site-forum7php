@@ -25,15 +25,6 @@ class HomeController{
             ,"nanderson-castro"
             ,"ricardo-coelho"
             ,"willian-mano"
-            ,"speaker_G"
-            ,"speaker_H"
-            ,"speaker_I"
-            ,"speaker_J"
-            ,"speaker_L"
-            ,"speaker_M"
-            ,"speaker_N"
-            ,"speaker_O"
-            ,"speaker_P"
         );
         $speakerRealName = array(
              "Atmos Maciel"
@@ -42,15 +33,6 @@ class HomeController{
             ,"Nanderson Castro"
             ,"Ricardo Coelho"
             ,"Willian Mano"
-            ,"speaker_G"
-            ,"speaker_H"
-            ,"speaker_I"
-            ,"speaker_J"
-            ,"speaker_L"
-            ,"speaker_M"
-            ,"speaker_N"
-            ,"speaker_O"
-            ,"speaker_P"
         );
 
         return $this->app['twig']->render('home.twig',

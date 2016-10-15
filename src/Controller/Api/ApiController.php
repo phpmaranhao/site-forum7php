@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 namespace ForumPHPMA\Controller\Api;
 
 use Silex\Application;
@@ -36,16 +37,15 @@ class ApiController
              	'name' => "Atmos Maciel",
              	'slug' => "atmos-maciel",
              	'talk' => "A definir",
-             	'resume' => "A definir",
-             	'bio'    => "Desenvolvedor de sistemas (Atualmente, Sistemas Web e Mobile Android). Gosta de Inovação e seus ambientes bem como empreendedorismo. Acima de tudo, defensor e entusiasta do Software Livre, do Linux e cultura Open-Source. Gosta de aprender coisas novas e procura sempre ser multidisciplinar e interdisciplinar nas áreas do conhecimento. Estudante de Ciência da Computação, tenho objetivo de me tornar referência na minha área de atuação e promover a ciência e tecnologia. Participante ativo das comunidades PHP Maranhão, Agile MA e GDG São Luís e das demais comunidades de inovação e tecnologia do estado."
+             	'resume' => "Ainda não epecificado...",
+             	'bio'    => "Desenvolvedor de sistemas (Atualmente, Sistemas Web e Mobile Android). Gosta de Inovação e seus ambientes bem como empreendedorismo. Acima de tudo, defensor e entusiasta do Software Livre, do Linux e cultura Open-Source. Gosta de aprender coisas novas e procura sempre ser multidisciplinar e interdisciplinar nas áreas do conhecimento. Estudante de Ciência da Computação, tenho objetivo de me tornar referência na minha área de atuação e promover a ciência e tecnologia. Presidente da comunidade PHP Maranhão e participante ativo das comunidades Agile MA e GDG São Luís e das demais comunidades de inovação e tecnologia do estado."
              ]
             ,1 => [
             	'name' => "Evaldo Barbosa",
             	'slug' => "evaldo-barbosa",
             	'talk' => "Por que é tão difícil um programador empreender?",
             	'resume' => "Nessa palestra veremos alguns aspectos interessantes desse tema como zona de conforto, perfil empreendedor, competências e falta de vergonha na cara.",
-            	'bio'    => "Analista de sistemas, programador, palestrante e um eterno fuçador de código e problemas. Tem paixão por café e código fonte, por PHP, métodos ágeis e empreendedorismo.
-Scrum Master Certificado pela Scrum Alliance, embaixador do PHP-Maranhão, co-fundador do Agile-MA e membro do GDG São Luís."
+            	'bio'    => "Analista de sistemas, programador, palestrante e um eterno fuçador de código e problemas. Tem paixão por café e código fonte, por PHP, métodos ágeis e empreendedorismo. Scrum Master Certificado pela Scrum Alliance, embaixador do PHP-Maranhão, co-fundador do Agile-MA e membro do GDG São Luís."
             ]
             ,2 => [
             	'name' => "Fabio Soares",
