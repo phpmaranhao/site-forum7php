@@ -21,11 +21,11 @@ class RouterServiceProvider implements ServiceProviderInterface{
         $app->get('/quem/nanderson-castro/', "who:speaker_D");
         $app->get('/quem/ricardo-coelho/', "who:speaker_E");
         $app->get('/quem/willian-mano/'  , "who:speaker_F");
-        $app->get('/quem/speaker_G/', "who:speaker_G");
-        $app->get('/quem/speaker_H/', "who:speaker_H");
-        $app->get('/quem/speaker_I/', "who:speaker_I");
-        $app->get('/quem/speaker_J/', "who:speaker_J");
-        $app->get('/quem/speaker_L/', "who:speaker_L");
+        $app->get('/quem/daniela-pitta/', "who:speaker_G");
+        $app->get('/quem/helena-saminez/', "who:speaker_H");
+        $app->get('/quem/galvao-abbott/', "who:speaker_I");
+        $app->get('/quem/bruno-porkaria/', "who:speaker_J");
+        $app->get('/quem/romulo-martins/', "who:speaker_L");
         $app->get('/quem/speaker_M/', "who:speaker_M");
         $app->get('/quem/speaker_N/', "who:speaker_N");
         $app->get('/quem/speaker_O/', "who:speaker_O");

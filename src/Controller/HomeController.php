@@ -19,20 +19,30 @@ class HomeController{
          * Name of the speakers will be added here
          */
         $speakerName = array(
-             "atmos-maciel"
+             "daniela-pitta"
+            ,"helena-saminez"
+            ,"galvao-abbott"
+            ,"bruno-porkaria"
+            ,"atmos-maciel"
             ,"evaldo-barbosa"
             ,"fabio-soares"
             ,"nanderson-castro"
             ,"ricardo-coelho"
             ,"willian-mano"
+            ,"romulo-martins"
         );
         $speakerRealName = array(
-             "Atmos Maciel"
+             "Daniela Pitta"
+            ,"Helena Saminez"
+            ,"Er Galvão Abbott"
+            ,"Bruno Porkaria"
+            ,"Atmos Maciel"
             ,"Evaldo Barbosa"
             ,"Fabio Soares"
             ,"Nanderson Castro"
             ,"Ricardo Coelho"
             ,"Willian Mano"
+            ,"Rômulo Martins"
         );
 
         return $this->app['twig']->render('home.twig',

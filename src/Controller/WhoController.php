@@ -11,12 +11,17 @@ class WhoController{
     private $app;
 
     private $speakerName = array(
-         "atmos-maciel"
+         "daniela-pitta"
+        ,"helena-saminez"
+        ,"galvao-abbott"
+        ,"bruno-porkaria"
+        ,"atmos-maciel"
         ,"evaldo-barbosa"
-        ,"fabio-Soares"
+        ,"fabio-soares"
         ,"nanderson-castro"
         ,"ricardo-coelho"
         ,"willian-mano"
+        ,"romulo-martins"
     );
 
     public function __construct($app){
@@ -34,7 +39,7 @@ class WhoController{
         $content['slideName']        = "A definir";
         $content['slideDescription'] = "Ainda não especificado...";
         $content['slideLink']        = "http://speakerdeck.com/atmos/slide";
-        $content['urlName']          = $this->speakerName[0];
+        $content['urlName']          = $this->speakerName[4];
         $content['socialNetWork']    = array(
                                         'facebook'  => "https://www.facebook.com/atmosmps",
                                         'twitter'   => "http://twitter.com/",
@@ -57,7 +62,7 @@ class WhoController{
         $content['slideName']        = "Por que é tão difícil um programador empreender?";
         $content['slideDescription'] = "Nessa palestra veremos alguns aspectos interessantes desse tema como zona de conforto, perfil empreendedor, competências e falta de vergonha na cara.";
         $content['slideLink']        = "http://speakerdeck.com/evaldo/slide";
-        $content['urlName']          = $this->speakerName[1];
+        $content['urlName']          = $this->speakerName[5];
         $content['socialNetWork']    = array(
                                         'facebook'  => "http://facebook.com/",
                                         'twitter'   => "http://twitter.com/",
@@ -80,7 +85,7 @@ class WhoController{
         $content['slideName']        = "A Definir";
         $content['slideDescription'] = "Ainda não especificado...";
         $content['slideLink']        = "https://speakerdeck.com/1fabiosoares";
-        $content['urlName']          = $this->speakerName[2];
+        $content['urlName']          = $this->speakerName[6];
         $content['socialNetWork']    = array(
                                         'facebook'  => "http://facebook.com/1FabioSoares",
                                         'twitter'   => "http://twitter.com/1fabiosoares",
@@ -105,7 +110,7 @@ class WhoController{
         $content['slideName']        = "JWT Com Symfony";
         $content['slideDescription'] = "Nessa palestra Nanderson Castro vai mostrar como configurar nossa API com o Framework Symfony, para a utilização de JWT com mecanismo de autenticação. Abordarei conceitos básico sobre o Framework, sobre JWT e a integração entre ambos.";
         $content['slideLink']        = "http://speakerdeck.com/nanderson/slide";
-        $content['urlName']          = $this->speakerName[3];
+        $content['urlName']          = $this->speakerName[7];
         $content['socialNetWork']    = array(
                                         'facebook'  => "http://facebook.com/",
                                         'twitter'   => "http://twitter.com/",
@@ -129,7 +134,7 @@ class WhoController{
         $content['slideName']        = "PHP & Templates SVG - Documentos instantâneos";
         $content['slideDescription'] = "Nesta palestra veremos como utilizar templates SVG para geração de documentos instantâneos em PHP, com suporte a imagens, texto variável, gráficos e múltiplas páginas. Diga adeus à biblioteca de geração de PDFs que sempre trouxe alegria e paz para o seu dia a dia #sqn.";
         $content['slideLink']        = "https://speakerdeck.com/ramcoelho";
-        $content['urlName']          = $this->speakerName[3];
+        $content['urlName']          = $this->speakerName[8];
         $content['socialNetWork']    = array(
                                         'facebook'  => "http://facebook.com/",
                                         'twitter'   => "http://twitter.com/",
@@ -152,7 +157,7 @@ class WhoController{
         $content['slideName']        = "Fazer software livre é fácil, difícil é manter.";
         $content['slideDescription'] = "No campo das idéias sempre surgem oportunidades para a criação de algo maravilho, ainda mais se for open source. Entretanto, ao contrário do que se imagina, a parte mais difícil é a manunteção da ferramenta criada. Bugs que podem aparecer, sugestões da comunidade e melhorias próprias são apenas algumas das atividades que você deve aprender a gerenciar. Nesta palestra compartilharei um pouco da minha experiência no desenvolvimento de extenssões open source e como utilizar tecnologias para tornar sua vida de desenvolvedor mais tranquila. ";
         $content['slideLink']        = "https://speakerdeck.com/willianmano";
-        $content['urlName']          = $this->speakerName[4];
+        $content['urlName']          = $this->speakerName[9];
         $content['socialNetWork']    = array(
                                         'facebook'  => "http://facebook.com/willianmano",
                                         'twitter'   => "http://twitter.com/willian_dev",
@@ -160,6 +165,133 @@ class WhoController{
                                         'linkedIn'  => "https://br.linkedin.com/in/willianmano",
                                         'github'    => "http://github.com/willianmano"
                                         );
+
+        return $this->app['twig']->render('/who/speaker.twig', $content);
+    }
+
+    public function speaker_G(){
+        $content                     = array();
+        $content['name']             = "Daniela Pitta";
+        $content['photo']            = false;
+        $content['photo_speaker']    = "../img.png";
+        $content['description']      = "A definir...";
+        $content['type']             = "Palestra";
+        $content['slidePhoto']       = "rocket-night.jpg";
+        $content['slideName']        = "A Definir...";
+        $content['slideDescription'] = "A Definir...";
+        $content['slideLink']        = "https://speakerdeck.com/";
+        $content['urlName']          = $this->speakerName[0];
+        $content['socialNetWork']    = array(
+            'facebook'  => "http://facebook.com/",
+            'twitter'   => "http://twitter.com/",
+            'instagram' => "http://instagram.com/",
+            'linkedIn'  => "https://br.linkedin.com/in/",
+            'github'    => "http://github.com/"
+        );
+
+        return $this->app['twig']->render('/who/speaker.twig', $content);
+    }
+
+    public function speaker_H(){
+        $content                     = array();
+        $content['name']             = "Helena Saminez";
+        $content['photo']            = false;
+        $content['photo_speaker']    = "../img.png";
+        $content['description']      = "Sou estudante  de Computação, líder do Women Techmakers, integrante  do Php Women Brasil, ama impulsionar e  emponderar mulheres para a área de tecnologia, e ama trabalhar em comunidades.";
+        $content['type']             = "Palestra";
+        $content['slidePhoto']       = "rocket-night.jpg";
+        $content['slideName']        = "O Poder das comunidades de Tecnologia";
+        $content['slideDescription'] = "A Definir...";
+        $content['slideLink']        = "https://speakerdeck.com/";
+        $content['urlName']          = $this->speakerName[1];
+        $content['socialNetWork']    = array(
+            'facebook'  => "http://facebook.com/",
+            'twitter'   => "http://twitter.com/",
+            'instagram' => "http://instagram.com/",
+            'linkedIn'  => "https://br.linkedin.com/in/",
+            'github'    => "http://github.com/"
+        );
+
+        return $this->app['twig']->render('/who/speaker.twig', $content);
+    }
+
+    public function speaker_I(){
+        $content                     = array();
+        $content['name']             = "Galvão Abbott";
+        $content['photo']            = false;
+        $content['photo_speaker']    = "galvao-abbott.png";
+        $content['description']      = "Presidente da ABRAPHP – Associação Brasileira de Profissionais PHP;
+                                        Diretor da PHP Conference Brasil;
+                                        Contribui para a tradução da documentação oficial;
+                                        Atua como Zend Framework Evangelist para o ZTeam, da Zend;
+                                        Professor (Especialista) de Pós-Graduação UNOESC (SC) e Faculdade Alfa (PR);
+                                        
+                                        20+ anos desenvolvendo sistemas e aplicações com interface web, 15+ destes com PHP 7+ com Zend Framework
+                                        
+                                        Palestrante em eventos nacionais e internacionais;
+                                        Instrutor de cursos presenciais e a distância;
+                                        Fundador e líder do GU PHPBR;
+                                        Fundador e membro do GU PHPRS;";
+
+        $content['type']             = "Palestra";
+        $content['slidePhoto']       = "rocket-night.jpg";
+        $content['slideName']        = "Logs: Porque um ElePHPant tem que ter boa memória!";
+        $content['slideDescription'] = "O que são logs, por que são importantes e como gerá-los com PHP e Monolog.";
+        $content['slideLink']        = "https://speakerdeck.com/";
+        $content['urlName']          = $this->speakerName[2];
+        $content['socialNetWork']    = array(
+            'facebook'  => "http://facebook.com/",
+            'twitter'   => "http://twitter.com/",
+            'instagram' => "http://instagram.com/",
+            'linkedIn'  => "https://br.linkedin.com/in/",
+            'github'    => "http://github.com/"
+        );
+
+        return $this->app['twig']->render('/who/speaker.twig', $content);
+    }
+
+    public function speaker_J(){
+        $content                     = array();
+        $content['name']             = "Bruno Porkaria";
+        $content['photo']            = false;
+        $content['photo_speaker']    = "../img.png";
+        $content['description']      = "A Definir...";
+        $content['type']             = "Palestra";
+        $content['slidePhoto']       = "rocket-night.jpg";
+        $content['slideName']        = "A Definir...";
+        $content['slideDescription'] = "A Definir...";
+        $content['slideLink']        = "https://speakerdeck.com/";
+        $content['urlName']          = $this->speakerName[3];
+        $content['socialNetWork']    = array(
+            'facebook'  => "http://facebook.com/",
+            'twitter'   => "http://twitter.com/",
+            'instagram' => "http://instagram.com/",
+            'linkedIn'  => "https://br.linkedin.com/in/",
+            'github'    => "http://github.com/"
+        );
+
+        return $this->app['twig']->render('/who/speaker.twig', $content);
+    }
+
+    public function speaker_L(){
+        $content                     = array();
+        $content['name']             = "Rômulo Martins";
+        $content['photo']            = false;
+        $content['photo_speaker']    = "../img.png";
+        $content['description']      = "A Definir...";
+        $content['type']             = "Palestra";
+        $content['slidePhoto']       = "rocket-night.jpg";
+        $content['slideName']        = "A Definir...";
+        $content['slideDescription'] = "A Definir...";
+        $content['slideLink']        = "https://speakerdeck.com/";
+        $content['urlName']          = $this->speakerName[10];
+        $content['socialNetWork']    = array(
+            'facebook'  => "http://facebook.com/",
+            'twitter'   => "http://twitter.com/",
+            'instagram' => "http://instagram.com/",
+            'linkedIn'  => "https://br.linkedin.com/in/",
+            'github'    => "http://github.com/"
+        );
 
         return $this->app['twig']->render('/who/speaker.twig', $content);
     }
