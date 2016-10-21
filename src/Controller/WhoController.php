@@ -173,12 +173,12 @@ class WhoController{
         $content                     = array();
         $content['name']             = "Daniela Pitta";
         $content['photo']            = false;
-        $content['photo_speaker']    = "../img.png";
-        $content['description']      = "A definir...";
+        $content['photo_speaker']    = "daniela-pitta.jpg";
+        $content['description']      = "Daniela é formada em Sistemas para Internet pelo IFPB e atua como Desenvolvedora Web nas principais linguagens de programação Javascript e Ruby. Tem interesse pelas áreas de Teste, Qualidade, Gerência de Projetos e Engenharia de Software por isso, lê bastante sobre os temas. Coordena duas comunidades de desenvolvimento em João Pessoa, o Jampa Ruby e o Women Techmakers João Pessoa. É #MulherTechSimSenhor e no seu tempo livre gosta de ler, escrever e criar novos projetos.";
         $content['type']             = "Palestra";
         $content['slidePhoto']       = "rocket-night.jpg";
-        $content['slideName']        = "A Definir...";
-        $content['slideDescription'] = "A Definir...";
+        $content['slideName']        = "Criando seu primeiro componente em Angular 2";
+        $content['slideDescription'] = "Bastante coisa mudou da versão 1.0 do Angular para a versão 2.0 e nessa palestra espero apresentar como o Angular 2 opera através da criação de um primeiro componente. Essa palestra tem o objetivo de apresentar o funcionamento geral do framework e dos conceitos aplicados por ele. Não será necessário conhecimento prévio do Angular 1.0 pois como irei apresentar, as coisas funcionam de forma bem diferente no Angular 2.0.";
         $content['slideLink']        = "https://speakerdeck.com/";
         $content['urlName']          = $this->speakerName[0];
         $content['socialNetWork']    = array(
