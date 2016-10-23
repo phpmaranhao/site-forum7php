@@ -295,4 +295,27 @@ class WhoController{
 
         return $this->app['twig']->render('/who/speaker.twig', $content);
     }
+
+    public function speaker_M(){
+        $content                     = array();
+        $content['name']             = "Alisson Gomes";
+        $content['photo']            = false;
+        $content['photo_speaker']    = "alisson-gomes.jpg";
+        $content['description']      = "Cursando Bacharelado em Ciência Contábeis na Universidade Federal do Maranhão, desenvolvedor web desde 2008 e em 2009 tive meu primeiro contato com PHP, just love it! Sempre (todo dia) busco novidades em todas as tecnologias, linguagens, games, bancos de dados e tenho um vício perigoso em pc tunning e motos. Atualmente tenho um foco de desenvolvimento em sistemas web (médio e grande porte), usando, predominantemente, o framework php Laravel (dependendo do projeto uso Lumen, Slim, Silex, Phalcon ou nenhum deles - PHP7. Consumindo a API atualmente trabalho com AngularJS/2 e VueJS (typescript is love).";
+        $content['type']             = "Palestra";
+        $content['slidePhoto']       = "rocket-night.jpg";
+        $content['slideName']        = "Laravel Passport: API Authentication - You Have the Power.";
+        $content['slideDescription'] = "Nesta palestra será mostrado um panorama geral com aplicações práticas do pacote de Autenticação de API's do Laravel Framework 5.3.x - Da instalação ao consumo da API no front-end.";
+        $content['slideLink']        = "https://speakerdeck.com/";
+        $content['urlName']          = $this->speakerName[10];
+        $content['socialNetWork']    = array(
+            'facebook'  => "http://facebook.com/",
+            'twitter'   => "http://twitter.com/",
+            'instagram' => "http://instagram.com/",
+            'linkedIn'  => "https://br.linkedin.com/in/",
+            'github'    => "http://github.com/"
+        );
+
+        return $this->app['twig']->render('/who/speaker.twig', $content);
+    }
 }
