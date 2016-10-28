@@ -131,8 +131,8 @@ class WhoController{
         $content['description']      = "Ricardo Coelho é cientista da computação pela Universidade Federal do Maranhão - UFMA, concentrando interesse em aplicações web com ênfase em webservices. Fundador do grupo PHP-Maranhão, que desde 2005 congrega mais de 800 profissionais do estado. Atualmente é organizer do GDG São Luis. Com mais de 20 anos de experiência profissional em desenvolvimento e docência, representa o Maranhão como palestrante em eventos no Brasil e no exterior. É vice-presidente da Associação Brasileira de Profissionais PHP - ABRAPHP, onde atua pela integração da tríade governo-mercado-academia. É especialista em em sistemas de segurança da informação, auditor certificado NBR ISO/IEC 27001 e perito forense digital.";
         $content['type']             = "Palestra";
         $content['slidePhoto']       = "rocket-night.jpg";
-        $content['slideName']        = "PHP & Templates SVG - Documentos instantâneos";
-        $content['slideDescription'] = "Nesta palestra veremos como utilizar templates SVG para geração de documentos instantâneos em PHP, com suporte a imagens, texto variável, gráficos e múltiplas páginas. Diga adeus à biblioteca de geração de PDFs que sempre trouxe alegria e paz para o seu dia a dia #sqn.";
+        $content['slideName']        = "UTF-8: O último encoding que você precisará";
+        $content['slideDescription'] = "Nesta palestra discutiremos charsets e encodings, aprendendo as diferenças, as vantagens e desvantagens de usar cada um dos diversos disponíveis e, por fim, mostraremos porque o UTF-8 é o último encoding que você precisará usar.";
         $content['slideLink']        = "https://speakerdeck.com/ramcoelho";
         $content['urlName']          = $this->speakerName[8];
         $content['socialNetWork']    = array(
