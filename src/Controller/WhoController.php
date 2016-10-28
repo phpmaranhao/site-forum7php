@@ -196,12 +196,12 @@ class WhoController{
         $content                     = array();
         $content['name']             = "Helena Saminez";
         $content['photo']            = false;
-        $content['photo_speaker']    = "../img.png";
+        $content['photo_speaker']    = "helena-saminez.jpg";
         $content['description']      = "Sou estudante  de Computação, líder do Women Techmakers, integrante  do Php Women Brasil, ama impulsionar e  emponderar mulheres para a área de tecnologia, e ama trabalhar em comunidades.";
         $content['type']             = "Palestra";
         $content['slidePhoto']       = "rocket-night.jpg";
         $content['slideName']        = "O Poder das comunidades de Tecnologia";
-        $content['slideDescription'] = "A Definir...";
+        $content['slideDescription'] = "Será um compartilhamento de experiências, envolvimento de comunidades... Contar sobre o início das comunidades e o poder que ela possui, haverá também uma \"pausa para a comunidade\" para compartilhar ideia, falar sobre a experiência em comunidade.";
         $content['slideLink']        = "https://speakerdeck.com/";
         $content['urlName']          = $this->speakerName[1];
         $content['socialNetWork']    = array(
