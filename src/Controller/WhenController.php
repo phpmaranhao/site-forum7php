@@ -22,18 +22,19 @@ class WhenController
          * Name of the speakers will be added here
          */
          $speakerName = array(
-             "daniela-pitta"
-            ,"helena-saminez"
-            ,"galvao-abbott"
-            ,"bruno-porkaria"
-            ,"atmos-maciel"
-            ,"evaldo-barbosa"
-            ,"fabio-soares"
-            ,"nanderson-castro"
-            ,"ricardo-coelho"
-            ,"willian-mano"
-            ,"romulo-martins"
-            ,"alisson-gomes"
+              "daniela-pitta"
+             ,"helena-saminez"
+             ,"galvao-abbott"
+             ,"bruno-porkaria"
+             ,"atmos-maciel"
+             ,"evaldo-barbosa"
+             ,"fabio-soares"
+             ,"nanderson-castro"
+             ,"ricardo-coelho"
+             ,"willian-mano"
+             ,"romulo-martins"
+             ,"alisson-gomes"
+             ,"henrique-monteiro"
         );
 
         return $this->app['twig']->render('/when/when.twig',

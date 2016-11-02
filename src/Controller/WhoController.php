@@ -36,8 +36,8 @@ class WhoController{
         $content['description']      = "Desenvolvedor de sistemas (Atualmente, Sistemas Web e Mobile Android). Gosta de Inovação e seus ambientes bem como empreendedorismo. Acima de tudo, defensor e entusiasta do Software Livre, do Linux e cultura Open-Source. Gosta de aprender coisas novas e procura sempre ser multidisciplinar e interdisciplinar nas áreas do conhecimento. Estudante de Ciência da Computação, tenho objetivo de me tornar referência na minha área de atuação e promover a ciência e tecnologia. Presidente da comunidade PHP Maranhão e participante ativo das comunidades Agile MA e GDG São Luís e das demais comunidades de inovação e tecnologia do estado.";
         $content['type']             = "Palestra";
         $content['slidePhoto']       = "rocket-night.jpg";
-        $content['slideName']        = "A definir";
-        $content['slideDescription'] = "Ainda não especificado...";
+        $content['slideName']        = "Micro Frameworks: sua aplicação na crista da onda";
+        $content['slideDescription'] = "Nesta palestra vamos conversar sobre micro frameworks, sua estrutura e arquitetura, falar porque eles são uma boa opção para sua aplicação seja ela pequena ou grande e a facilidade que você terá um utiliza-los e aprendê-los, também vamos falar do poder que os microframworks entregam nas mãos dos desenvolvedores e das responsabilidade que vem junto com isso. Afinal com grandes poderes, vem... ah! Você já sabe o resto.";
         $content['slideLink']        = "http://speakerdeck.com/atmos/slide";
         $content['urlName']          = $this->speakerName[4];
         $content['socialNetWork']    = array(
@@ -307,7 +307,30 @@ class WhoController{
         $content['slideName']        = "Laravel Passport: API Authentication - You Have the Power.";
         $content['slideDescription'] = "Nesta palestra será mostrado um panorama geral com aplicações práticas do pacote de Autenticação de API's do Laravel Framework 5.3.x - Da instalação ao consumo da API no front-end.";
         $content['slideLink']        = "https://speakerdeck.com/";
-        $content['urlName']          = $this->speakerName[10];
+        $content['urlName']          = $this->speakerName[11];
+        $content['socialNetWork']    = array(
+            'facebook'  => "http://facebook.com/",
+            'twitter'   => "http://twitter.com/",
+            'instagram' => "http://instagram.com/",
+            'linkedIn'  => "https://br.linkedin.com/in/",
+            'github'    => "http://github.com/"
+        );
+
+        return $this->app['twig']->render('/who/speaker.twig', $content);
+    }
+
+    public function speaker_N(){
+        $content                     = array();
+        $content['name']             = "Henrique Monteiro";
+        $content['photo']            = false;
+        $content['photo_speaker']    = "henrique-monteiro.jpg";
+        $content['description']      = "Webdesigner - Programador php e Entusiasta na área Hacker/Pentester.";
+        $content['type']             = "Palestra";
+        $content['slidePhoto']       = "rocket-night.jpg";
+        $content['slideName']        = "Segurança da informação e Pentest";
+        $content['slideDescription'] = "O objetivo desta palestra é descrever as etapas de um teste de invasão, mostrando que a estrutura dos testes segue modelos cuidadosamente estruturados em passos bem definidos. Afinal, apesar das óbvias semelhanças, há uma série de diferenças entre um ataque simulado, contratado e um ataque malicioso real. Diariamente são descobertas novas falhas nos mais variados sistemas, por isso é de fundamental importância auditorias preventivas, mais especificamente, testes de invasão, que podem dar um diagnóstico real sobre a segurança dos ativos em questão.";
+        $content['slideLink']        = "https://speakerdeck.com/";
+        $content['urlName']          = $this->speakerName[11];
         $content['socialNetWork']    = array(
             'facebook'  => "http://facebook.com/",
             'twitter'   => "http://twitter.com/",
