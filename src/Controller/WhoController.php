@@ -11,18 +11,19 @@ class WhoController{
     private $app;
 
     private $speakerName = array(
-         "daniela-pitta"
-        ,"helena-saminez"
-        ,"galvao-abbott"
-        ,"bruno-porkaria"
-        ,"atmos-maciel"
-        ,"evaldo-barbosa"
-        ,"fabio-soares"
-        ,"nanderson-castro"
-        ,"ricardo-coelho"
-        ,"willian-mano"
-        ,"romulo-martins"
-    );
+         0  => "daniela-pitta"
+        ,1  => "helena-saminez"
+        ,2  => "galvao-abbott"
+        ,3  => "bruno-porkaria"
+        ,4  => "atmos-maciel"
+        ,5  => "evaldo-barbosa"
+        ,6  => "fabio-soares"
+        ,7  => "nanderson-castro"
+        ,8  => "ricardo-coelho"
+        ,9  => "willian-mano"
+        ,10 => "romulo-martins"
+        ,11 => "allisson-gomes"
+        ,12 => "henrique-monteiro");
 
     public function __construct($app){
         $this->app = $app;
@@ -330,7 +331,7 @@ class WhoController{
         $content['slideName']        = "Segurança da informação e Pentest";
         $content['slideDescription'] = "O objetivo desta palestra é descrever as etapas de um teste de invasão, mostrando que a estrutura dos testes segue modelos cuidadosamente estruturados em passos bem definidos. Afinal, apesar das óbvias semelhanças, há uma série de diferenças entre um ataque simulado, contratado e um ataque malicioso real. Diariamente são descobertas novas falhas nos mais variados sistemas, por isso é de fundamental importância auditorias preventivas, mais especificamente, testes de invasão, que podem dar um diagnóstico real sobre a segurança dos ativos em questão.";
         $content['slideLink']        = "https://speakerdeck.com/";
-        $content['urlName']          = $this->speakerName[11];
+        $content['urlName']          = $this->speakerName[12];
         $content['socialNetWork']    = array(
             'facebook'  => "http://facebook.com/",
             'twitter'   => "http://twitter.com/",
