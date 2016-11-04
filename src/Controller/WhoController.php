@@ -105,7 +105,7 @@ class WhoController{
         $content['photo']            = false;
         $content['photo_speaker']    = "nanderson-castro.jpg";
         $content['photo']            = "/speakers/nanderson-castro.jpg";
-        $content['description']      = "Developer por amor e curioso por natureza! Gerencia comunidades e meetups em sua região, desde PHP UG a Ionic Meetup passando pelo Google Developers Group. Zend Certified PHP Engineer, para a versão 5.5 do PHP. Acredita que promover e participar de eventos, meetups e fortalecer o network, o faz um profissional melhor e mais iterado no mercado onde atua! Profissionalmente atuo na Secretaria de Transparência e Controle do Maranhão e me aventuro, com cuidado, no mundo do empreededorismo na Code Experts Apps, empresa focada na criação de Aplicações Web e Aplicativos Móveis.";
+        $content['description']      = "Developer por amor e curioso por natureza. Gerencia comunidades e meetups em sua região, desde PHP UG a Ionic Meetup passando pelo Google Developers Group. Zend Certified PHP Engineer, acredita que promover e participar de eventos, meetups e fortalecer o network o faz um profissional melhor e mais inteirado sobre o mercado onde atua. Profissionalmente, atua na Secretaria de Transparência e Controle do Maranhão e se aventura no mundo do empreededorismo através da Code Experts Apps, empresa focada na criação de Aplicações Web e Aplicativos Móveis.";
         $content['type']             = "Palestra";
         $content['slidePhoto']       = "rocket-night.jpg";
         $content['slideName']        = "JWT Com Symfony";
@@ -129,7 +129,7 @@ class WhoController{
         $content['photo']            = false;
         $content['photo_speaker']    = "ricardo-coelho.jpg";
         $content['photo']            = "/speakers/ricardo-coelho.jpg";
-        $content['description']      = "Ricardo Coelho é cientista da computação pela Universidade Federal do Maranhão - UFMA, concentrando interesse em aplicações web com ênfase em webservices. Fundador do grupo PHP-Maranhão, que desde 2005 congrega mais de 800 profissionais do estado. Atualmente é organizer do GDG São Luis. Com mais de 20 anos de experiência profissional em desenvolvimento e docência, representa o Maranhão como palestrante em eventos no Brasil e no exterior. É vice-presidente da Associação Brasileira de Profissionais PHP - ABRAPHP, onde atua pela integração da tríade governo-mercado-academia. É especialista em em sistemas de segurança da informação, auditor certificado NBR ISO/IEC 27001 e perito forense digital.";
+        $content['description']      = "Ricardo Coelho é cientista da computação pela Universidade Federal do Maranhão - UFMA, concentrando interesse em aplicações web com ênfase em webservices. Fundador do grupo PHP-Maranhão, que desde 2005 congrega mais de 800 profissionais do estado. Atualmente é organizer do GDG São Luis. Com mais de 20 anos de experiência profissional em desenvolvimento e docência, é Zend Certified PHP Engineer e representa o Maranhão como palestrante em eventos no Brasil e no exterior. É vice-presidente da Associação Brasileira de Profissionais PHP - ABRAPHP, onde atua pela integração da tríade governo-mercado-academia. É especialista em em sistemas de segurança da informação, auditor certificado NBR ISO/IEC 27001 e perito forense digital.";
         $content['type']             = "Palestra";
         $content['slidePhoto']       = "rocket-night.jpg";
         $content['slideName']        = "UTF-8: O último encoding que você precisará";
@@ -137,11 +137,11 @@ class WhoController{
         $content['slideLink']        = "https://speakerdeck.com/ramcoelho";
         $content['urlName']          = $this->speakerName[8];
         $content['socialNetWork']    = array(
-                                        'facebook'  => "http://facebook.com/",
-                                        'twitter'   => "http://twitter.com/",
-                                        'instagram' => "http://instagram.com/",
-                                        'linkedIn'  => "http://linkedin.com/",
-                                        'github'    => "http://github.com"
+                                        'facebook'  => "https://facebook.com/ricardoamcoelho",
+                                        'twitter'   => "https://twitter.com/ramcoelho",
+                                        'instagram' => "https://instagram.com/ramcoelho",
+                                        'linkedIn'  => "https://www.linkedin.com/in/ramcoelho",
+                                        'github'    => "https://github.com/ramcoelho"
                                         );
 
         return $this->app['twig']->render('/who/speaker.twig', $content);
@@ -198,11 +198,11 @@ class WhoController{
         $content['name']             = "Helena Saminez";
         $content['photo']            = false;
         $content['photo_speaker']    = "helena-saminez.jpg";
-        $content['description']      = "Sou estudante  de Computação, líder do Women Techmakers, integrante  do Php Women Brasil, ama impulsionar e  emponderar mulheres para a área de tecnologia, e ama trabalhar em comunidades.";
+        $content['description']      = "Estudante do curso de Computação, líder do Women Techmakers, integrante do grupo PHP Women Brasil, ama impulsionar e empoderar mulheres da área de tecnologia e trabalhar em comunidades.";
         $content['type']             = "Palestra";
         $content['slidePhoto']       = "rocket-night.jpg";
         $content['slideName']        = "O Poder das comunidades de Tecnologia";
-        $content['slideDescription'] = "Será um compartilhamento de experiências, envolvimento de comunidades... Contar sobre o início das comunidades e o poder que ela possui, haverá também uma \"pausa para a comunidade\" para compartilhar ideia, falar sobre a experiência em comunidade.";
+        $content['slideDescription'] = "Será um compartilhamento de experiências, envolvimento de comunidades. Contar sobre o início das comunidades e o poder que ela possui, haverá também uma \"pausa para a comunidade\" para compartilhar ideia, falar sobre a experiência em comunidade.";
         $content['slideLink']        = "https://speakerdeck.com/";
         $content['urlName']          = $this->speakerName[1];
         $content['socialNetWork']    = array(
