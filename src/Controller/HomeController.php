@@ -32,6 +32,7 @@ class HomeController{
             ,"romulo-martins"
             ,"alisson-gomes"
             ,"henrique-monteiro"
+            ,"paulo-coelho"
         );
         $speakerRealName = array(
              "Daniela Pitta"
@@ -47,6 +48,7 @@ class HomeController{
             ,"Rômulo Martins"
             ,"Alisson Gomes"
             ,"Henrique Monteiro"
+            ,"Paulo Coelho"
         );
 
         return $this->app['twig']->render('home.twig',

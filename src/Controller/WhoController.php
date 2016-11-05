@@ -23,7 +23,8 @@ class WhoController{
         ,9  => "willian-mano"
         ,10 => "romulo-martins"
         ,11 => "allisson-gomes"
-        ,12 => "henrique-monteiro");
+        ,12 => "henrique-monteiro"
+        ,13 => "paulo-coelho");
 
     public function __construct($app){
         $this->app = $app;
@@ -278,12 +279,12 @@ class WhoController{
         $content                     = array();
         $content['name']             = "Rômulo Martins";
         $content['photo']            = false;
-        $content['photo_speaker']    = "../img.png";
-        $content['description']      = "A Definir...";
+        $content['photo_speaker']    = "romulo-martins.jpg";
+        $content['description']      = "Professor do curso de Administração da Universidade Federal do Maranhão. Programador PHP (inativo). Doutor em Informática na Educação pela UFRGS - Universidade Federal do Rio Grande do Sul. Tem mestrado em Ciência da Computação, pós-graduado em Engenharia de Sistemas e atua na gestão de equipes há 10 anos. É o fundador da Startup Infortask, ganhadora do prêmio \"Conte a sua História da Pequenas Empresas e Grandes Negócios\" na Campus Party Brasil de 2016. Atualmente é o Presidente da Startup Maranhão.";
         $content['type']             = "Palestra";
         $content['slidePhoto']       = "rocket-night.jpg";
-        $content['slideName']        = "A Definir...";
-        $content['slideDescription'] = "A Definir...";
+        $content['slideName']        = "Você tem uma boa ideia? Desenvolva os seus clientes antes de desenvolver a sua solução!";
+        $content['slideDescription'] = "A palestra seguirá os conceitos abordados por Steve Blank e a metodologia “Customer Development” e explanará a importância de desenvolver os clientes antes de desenvolver a solução.";
         $content['slideLink']        = "https://speakerdeck.com/";
         $content['urlName']          = $this->speakerName[10];
         $content['socialNetWork']    = array(
@@ -332,6 +333,29 @@ class WhoController{
         $content['slideDescription'] = "O objetivo desta palestra é descrever as etapas de um teste de invasão, mostrando que a estrutura dos testes segue modelos cuidadosamente estruturados em passos bem definidos. Afinal, apesar das óbvias semelhanças, há uma série de diferenças entre um ataque simulado, contratado e um ataque malicioso real. Diariamente são descobertas novas falhas nos mais variados sistemas, por isso é de fundamental importância auditorias preventivas, mais especificamente, testes de invasão, que podem dar um diagnóstico real sobre a segurança dos ativos em questão.";
         $content['slideLink']        = "https://speakerdeck.com/";
         $content['urlName']          = $this->speakerName[12];
+        $content['socialNetWork']    = array(
+            'facebook'  => "http://facebook.com/",
+            'twitter'   => "http://twitter.com/",
+            'instagram' => "http://instagram.com/",
+            'linkedIn'  => "https://br.linkedin.com/in/",
+            'github'    => "http://github.com/"
+        );
+
+        return $this->app['twig']->render('/who/speaker.twig', $content);
+    }
+
+    public function speaker_O(){
+        $content                     = array();
+        $content['name']             = "Paulo Coelho";
+        $content['photo']            = false;
+        $content['photo_speaker']    = "paulo-coelho.jpg";
+        $content['description']      = "Paulo Coelho (o não famoso) é mestrando em design e professor de gestão do design. Acredita que sabe contar boas histórias e mente muito bem (e tem conseguido se safar com relativo sucesso). Adora animais e sonha com a paz mundial.";
+        $content['type']             = "Palestra";
+        $content['slidePhoto']       = "rocket-night.jpg";
+        $content['slideName']        = "O caso da palestra sobre  interação humano-computador que parecia user experience mas escondia um título anormalmente longo";
+        $content['slideDescription'] = "Aquele site que ninguém visita, aquele app que ninguém baixa. Estariam seus projetos amaldiçoados ou é uma simples questão de design centrado no usuário (ou a falta de)? Em 90% dos casos a mudança de foco resolve 80% dos problemas causados por 70% dos usuários.";
+        $content['slideLink']        = "https://speakerdeck.com/";
+        $content['urlName']          = $this->speakerName[13];
         $content['socialNetWork']    = array(
             'facebook'  => "http://facebook.com/",
             'twitter'   => "http://twitter.com/",
