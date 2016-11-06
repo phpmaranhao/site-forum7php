@@ -24,7 +24,8 @@ class WhoController{
         ,10 => "romulo-martins"
         ,11 => "allisson-gomes"
         ,12 => "henrique-monteiro"
-        ,13 => "paulo-coelho");
+        ,13 => "paulo-coelho"
+    );
 
     public function __construct($app){
         $this->app = $app;

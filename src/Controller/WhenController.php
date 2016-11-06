@@ -35,6 +35,7 @@ class WhenController
              ,"romulo-martins"
              ,"alisson-gomes"
              ,"henrique-monteiro"
+             ,"paulo-coelho"
         );
 
         return $this->app['twig']->render('/when/when.twig',
