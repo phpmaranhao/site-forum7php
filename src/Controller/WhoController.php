@@ -227,10 +227,8 @@ class WhoController{
                                         Diretor da PHP Conference Brasil;
                                         Contribui para a tradução da documentação oficial;
                                         Atua como Zend Framework Evangelist para o ZTeam, da Zend;
-                                        Professor (Especialista) de Pós-Graduação UNOESC (SC) e Faculdade Alfa (PR);
-                                        
-                                        20+ anos desenvolvendo sistemas e aplicações com interface web, 15+ destes com PHP 7+ com Zend Framework
-                                        
+                                        Professor (Especialista) de Pós-Graduação UNOESC (SC) e Faculdade Alfa (PR);                                        
+                                        20+ anos desenvolvendo sistemas e aplicações com interface web, 15+ destes com PHP 7+ com Zend Framework                                        
                                         Palestrante em eventos nacionais e internacionais;
                                         Instrutor de cursos presenciais e a distância;
                                         Fundador e líder do GU PHPBR;
