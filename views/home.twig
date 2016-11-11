@@ -39,16 +39,16 @@
         </header>
         <article class="container">
             <div class="grid gridResponsive">
-                <div class="column">
-                    <a href="{{ link_who }}/{{ speakerName[0] }}/">
-                        <figure class="capIn">
-                            <img src="assets/img/speakers/daniela-pitta.jpg" class="imgResponsive imgCenter">
-                            <figcaption>
-                                {{ speakerRealName[0] }}
-                            </figcaption>
-                        </figure>
-                    </a>
-                </div>
+                {#<div class="column">#}
+                    {#<a href="{{ link_who }}/{{ speakerName[0] }}/">#}
+                        {#<figure class="capIn">#}
+                            {#<img src="assets/img/speakers/daniela-pitta.jpg" class="imgResponsive imgCenter">#}
+                            {#<figcaption>#}
+                                {#{{ speakerRealName[0] }}#}
+                            {#</figcaption>#}
+                        {#</figure>#}
+                    {#</a>#}
+                {#</div>#}
                 <div class="column">
                     <a href="{{ link_who }}/{{ speakerName[1] }}/">
                         <figure class="capIn">
@@ -69,6 +69,16 @@
                         </figure>
                     </a>
                 </div>
+                <div class="column">
+                    <a href="{{ link_who }}/{{ speakerName[4] }}/">
+                        <figure class="capIn">
+                            <img src="assets/img/speakers/atmos-maciel.jpg" class="imgResponsive imgCenter">
+                            <figcaption>
+                                {{ speakerRealName[4] }}
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
             </div>
             <br>
             <div class="grid gridResponsive">
@@ -82,16 +92,6 @@
                         {#</figure>#}
                     {#</a>#}
                 {#</div>#}
-                <div class="column">
-                    <a href="{{ link_who }}/{{ speakerName[4] }}/">
-                        <figure class="capIn">
-                            <img src="assets/img/speakers/atmos-maciel.jpg" class="imgResponsive imgCenter">
-                            <figcaption>
-                                {{ speakerRealName[4] }}
-                            </figcaption>
-                        </figure>
-                    </a>
-                </div>
                 <div class="column">
                     <a href="{{ link_who }}/{{ speakerName[5] }}/">
                         <figure class="capIn">
@@ -112,9 +112,6 @@
                         </figure>
                     </a>
                 </div>
-            </div>
-            <br>
-            <div class="grid gridResponsive">
                 <div class="column">
                     <a href="{{ link_who }}/{{ speakerName[7] }}/">
                         <figure class="capIn">
@@ -125,6 +122,9 @@
                         </figure>
                     </a>
                 </div>
+            </div>
+            <br>
+            <div class="grid gridResponsive">
                 <div class="column">
                     <a href="{{ link_who }}/{{ speakerName[8] }}/">
                         <figure class="capIn">
@@ -145,19 +145,19 @@
                         </figure>
                     </a>
                 </div>
+                <div class="column">
+                    <a href="{{ link_who }}/{{ speakerName[10] }}/">
+                        <figure class="capIn">
+                            <img src="assets/img/speakers/romulo-martins.jpg" class="imgResponsive imgCenter">
+                            <figcaption>
+                                {{ speakerRealName[10] }}
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
             </div>
             <br>
             <div class="grid gridResponsive">
-                {#<div class="column">#}
-                    {#<a href="{{ link_who }}/{{ speakerName[10] }}/">#}
-                        {#<figure class="capIn">#}
-                            {#<img src="assets/img/img.png" class="imgResponsive imgCenter">#}
-                            {#<figcaption>#}
-                                {#{{ speakerRealName[10] }}#}
-                            {#</figcaption>#}
-                        {#</figure>#}
-                    {#</a>#}
-                {#</div>#}
                 <div class="column">
                     <a href="{{ link_who }}/{{ speakerName[11] }}/">
                         <figure class="capIn">
@@ -178,8 +178,18 @@
                         </figure>
                     </a>
                 </div>
+                <div class="column">
+                    <a href="{{ link_who }}/{{ speakerName[13] }}/">
+                        <figure class="capIn">
+                            <img src="assets/img/speakers/paulo-coelho.jpg" class="imgResponsive imgCenter">
+                            <figcaption>
+                                {{ speakerRealName[13] }}
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
                 {#<div class="column"></div>#}
-                <div class="column"></div>
+                {#<div class="column"></div>#}
             </div>
             <br>
         </article>
@@ -233,9 +243,11 @@
             {# div responsável por exibir o mapa#}
             <div id="map"></div>
 
-            {#<div class="textCenter textWhite">#}
-                {#<h1>OU ABRA AS CORDENADAS NO APP</h1>#}
-            {#</div>#}
+            <div class="textCenter textWhite">
+                <h1>
+                    <a href="https://play.google.com/store/apps/details?id=com.phpmaranhao.setephp" target="_blank">OU ABRA AS CORDENADAS NO APP</a>
+                </h1>
+            </div>
         </article>
         <br>
     </section>
