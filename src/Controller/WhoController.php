@@ -85,7 +85,7 @@ class WhoController{
         $content['slidePhoto']       = "javascript.gif";
         $content['slideName']        = "A Crise do JavaScript";
         $content['slideDescription'] = "Como é programar em JavaScript nos dias de hoje? Contando um pouco dos 21 anos de história do JavaScript. Sobre a situação atual e sobre o futuro dessa linguagem de programação amada por uns e odiada por outros. Dando enforque na situação atual da linguagem, sobre as novidades mais quentes do mundo da web.";
-        $content['slideLink']        = "https://speakerdeck.com/1fabiosoares";
+        $content['slideLink']        = "https://speakerdeck.com/1fabiosoares/a-crise-do-javascript";
         $content['urlName']          = $this->speakerName[6];
         $content['socialNetWork']    = array(
                                         'facebook'  => "http://facebook.com/1FabioSoares",
